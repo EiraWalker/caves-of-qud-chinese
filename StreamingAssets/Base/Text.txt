@@ -1,10 +1,9 @@
-﻿{
+{
 "OpeningStoryJoppa":
-"&y在 $month $day这一天，你到达了绿洲村落{{green|约帕}}，位于{{Y|莫格拉伊大盐漠}}的边缘。\n\n四周，水分农民在翠绿的水藤丛中劳作。四处是由岩盐和盐梗制成的茅屋。\n\n在地平线上，{{r|卡德}} 的丛林将铬色尖顶和锈蚀的拱门扼向大地。再远处，传说中的 {{C|纺锤}} 拔地而起，穿透层叠云空。",
+"&yOn the $day of $month, you arrive at the oasis-hamlet of {{green|Joppa}}, along the far rim of {{Y|Moghra'yi, the Great Salt Desert}}.\n\nAll around you, moisture farmers tend to groves of viridian watervine. There are huts wrought from rock salt and brinestalk.\n\nOn the horizon, {{r|Qud's}} jungles strangle chrome steeples and rusted archways to the earth. Further and beyond, the fabled {{C|Spindle}} rises above the fray and pierces the cloud-ribboned sky.",
 
 "OpeningStoryAlternate":
 "&y在 $month $day 这一天，你到达了 {{g|$village}} 村落。\n\n在地平线上，{{r|卡德}} 的丛林将铬色尖顶和锈蚀的拱门扼向大地。再远处，传说中的 {{C|纺锤}} 拔地而起，穿透层叠云空。",
-
 
 "FactionEncounterNumber_*Default":"1d4+2",
 "FactionEncounterNumber_Bears":"3-5",

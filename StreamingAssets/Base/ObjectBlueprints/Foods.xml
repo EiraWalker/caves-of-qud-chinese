@@ -1,4 +1,4 @@
-﻿<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <objects>
 
   <!--    
@@ -18,7 +18,7 @@
   <object Name="Food" Inherits="Item">
     <part Name="Render" Tile="items/sw_loaf.bmp" DisplayName="[食物]" RenderString="%" RenderLayer="5"/>
     <part Name="MeleeWeapon" BaseDamage="1d2-1"/>
-    <part Name="Physics" Category="食物" Weight="1" Organic="true"/>
+    <part Name="Physics" Category="Food" Weight="1" Organic="true"/>
     <part Name="Springy" Factor="0.8"/>
     <tag Name="BaseObject" Value="*noinherit"/>
     <part Name="Food" Satiation="Meal"/>
@@ -28,21 +28,21 @@
   </object>
   <object Name="Organ" Inherits="Food">
     <part Name="Render" Tile="items/sw_fireant_gaster.bmp" DisplayName="[器官]" RenderString="%" RenderLayer="5"/>
-    <part Name="Physics" Category="食物" Weight="1"/>
+    <part Name="Physics" Category="Food" Weight="1"/>
     <tag Name="BaseObject" Value="*noinherit"/>
     <part Name="Food" Satiation="Snack"/>
     <tag Name="Meat"/>		
   </object>
   <object Name="Snack" Inherits="Food">
     <part Name="Render" Tile="items/sw_loaf.bmp" DisplayName="[小吃]" RenderString="%" RenderLayer="5"/>
-    <part Name="Physics" Category="食物" Weight="1"/>
+    <part Name="Physics" Category="Food" Weight="1"/>
     <tag Name="BaseObject" Value="*noinherit"/>
     <part Name="Food" Satiation="Snack"/>
   </object>
   <object Name="Preservable" Inherits="Snack">
     <part Name="Render" DisplayName="[可保存]" RenderString="%" ColorString="&amp;R" DetailColor="g" RenderLayer="5" Tile="Items/sw_apple.bmp"/>
     <part Name="Commerce" Value="1"/>
-    <part Name="Description" Short="无"/>
+    <part Name="Description" Short=""/>
     <part Name="Physics" Weight="0"/>
     <part Name="Food" Satiation="None"/>
     <tag Name="BaseObject" Value="*noinherit"/>
@@ -428,7 +428,7 @@
     <part Name="Description" Short="大地的伤痕孕育了肉桂色的球茎，土壤和铬的压力将其扭曲成承载千年毁灭的形状。"/>
 		<part Name="Food"/>
     <part Name="Commerce" Value="5"/>
-    <part Name="Physics" Category="食物" Weight="1"/>
+    <part Name="Physics" Category="Food" Weight="1"/>
     <part Name="FearOnEat" Strength="3d8" Duration="4d6"/>
     <tag Name="Lah"/>
   </object>
@@ -467,7 +467,7 @@
   <object Name="Hoarshroom" Inherits="Mushroom">
     <part Name="Render" DisplayName="{{C|发光}}霜蘑菇" ColorString="&amp;C" DetailColor="Y" Tile="Items/sw_plump_mushroom.bmp"/>
 		<part Name="Description" Short="霜花点缀在灯罩般的菌盖上，散发着柔和的生物荧光。"/>
-		<part Name="Physics" Weight="0" Category="补药"/>		
+		<part Name="Physics" Weight="0" Category="Tonics"/>		
     <part Name="Commerce" Value="70"/>
     <part Name="Hoarshroom_Tonic_Applicator"/>
     <part Name="AITonicUse"/>
@@ -484,7 +484,7 @@
     <part Name="Food" Satiation="None"/>
     <part Name="Render" DisplayName="{{o|食者之肉}}" Tile="Items/sw_eaters_flesh.bmp" ColorString="&amp;o" DetailColor="O"/>
     <part Name="Commerce" Value="5"/>
-    <part Name="Physics" Category="食物" Weight="1"/>
+    <part Name="Physics" Category="Food" Weight="1"/>
     <part Name="GodshroomCap"/>
     <tag Name="NoAutoget" Value="1"/>
     <part Name="Description" Short="视觉感官在肿胀的珊瑚月球上的海绵状坑洞上模糊不清。这是神明的肉吗？"/>
@@ -528,7 +528,7 @@
     <part Name="Render" DisplayName="拉格根块茎" ColorString="&amp;W" DetailColor="w" Tile="Items/sw_tuber.bmp"/>
     <part Name="Description" Short="从地里挖出并削成薄片的淀粉状树突。"/>
     <part Name="Commerce" Value="50"/>
-    <part Name="Physics" Category="食物" Weight="1"/>
+    <part Name="Physics" Category="Food" Weight="1"/>
     <part Name="RefreshAllCooldownsOnEat" ChancePerAbility="25"/>
     <part Name="PreservableItem" Result="Mashed Lag" Number="8"/>
     <tag Name="ChooseToPreserve"/>
@@ -543,7 +543,7 @@
   </object>
   <object Name="Urberry" Inherits="Food">
     <part Name="Render" DisplayName="{{m|乌莓}}" ColorString="&amp;m" DetailColor="g" Tile="Items/sw_urberry.bmp" RenderString="'" RenderLayer="5"/>
-    <part Name="Physics" Category="药物"/>
+    <part Name="Physics" Category="Meds"/>
     <part Name="Food" Thirst="5000" Healing="100" Message="原型美味。"/>
     <part Name="Description" Short="土壤密度的果汁将莓果皮压制成一个完美且轻盈弯曲的球体。内部，一颗种子编码了百万倍的形状指令集。"/>
     <part Name="Commerce" Value="65"/>
@@ -581,7 +581,7 @@
     <part Name="Description" Short="一块玻璃碎片在锋利的边缘上闪耀，其裂纹特征显示了地质压力淬火的痕迹。"/>
     <part Name="Commerce" Value="80"/>
     <part Name="Food" Satiation="Snack" Message="它锋利且闪闪发光。"/>
-    <part Name="Physics" Category="食物" Weight="1" Organic="false"/>
+    <part Name="Physics" Category="Food" Weight="1" Organic="false"/>
     <part Name="PreservableItem" Result="Mirror Dust" Number="5"/>
     <part Name="EffectOnEat" Effect="CookingDomainReflect_Reflect100_ProceduralCookingTriggeredAction_Effect"/>
     <tag Name="ChooseToPreserve"/>
@@ -612,7 +612,7 @@
     <part Name="Render" Tile="Items/lovers_blossom.bmp" DisplayName="{{R|恋人的花蕾}}" ColorString="&amp;R" TileColor="&amp;r" DetailColor="R"/>
     <part Name="Description" Short="被抛弃的情人之心在余烬般的花瓣下燃烧，在金色的花药中被痛苦地捏紧，躺在泪流满目的翠绿萼片床上。"/>
     <part Name="Commerce" Value="20"/>
-    <part Name="Physics" Category="食物" Weight="0"/>
+    <part Name="Physics" Category="Food" Weight="0"/>
   </object>  
   <object Name="Humble Pie" Inherits="Snack">
     <part Name="Render" DisplayName="谦卑派" Tile="items/sw_pie.bmp" ColorString="&amp;w" DetailColor="W"/>
@@ -759,7 +759,7 @@
     <part Name="Food"/>
     <tag Name="Meat"/>
     <part Name="Description" Short="从捕获的盐跳虫的外骨骼侧翼削下的几丁质被干燥并敲打成脆片。"/>
-    <part Name="PreparedCookingIngredient" type="小型美味" charges="1"/>
+    <part Name="PreparedCookingIngredient" type="tastyMinor" charges="1"/>
     <part Name="Commerce" Value="0.5"/>
     <xtagGrammar iArticle="a" adjunctNoun=""/>
   </object>
@@ -887,7 +887,7 @@
   <object Name="Crusty Loaf" Inherits="Preservable">
     <part Name="Render" Tile="items/sw_loaf.bmp" DisplayName="硬壳面包" ColorString="&amp;w" DetailColor="W"/>
     <part Name="Description" Short="每年秋天，许多峡谷居民会前往高脚地购买秋季葡萄酒。他们回到家中，将小麦麸浸泡在葡萄酒中，在陶土烤箱中发酵面团。有些人更幸运；真菌林居民只需出门即可采集酵母，而与真菌友好的居民只需摇动他们长满酵母的肢体。"/>
-    <part Name="PreparedCookingIngredient" type="小型美味" charges="1"/>
+    <part Name="PreparedCookingIngredient" type="tastyMinor" charges="1"/>
     <part Name="Commerce" Value="0.5"/>
     <xtagGrammar iArticle="" adjunctNoun="" massNoun="false"/>
   </object>
@@ -898,7 +898,7 @@
     <xtagGrammar massNoun="true"/>
     <tag Name="Plant"/>
     <part Name="Commerce" Value="4"/>
-    <part Name="PreparedCookingIngredient" type="小型植物" charges="1"/>
+    <part Name="PreparedCookingIngredient" type="plantMinor" charges="1"/>
 		<tag Name="NoSparkingQuest"/>
   </object>
   <object Name="Food Cube" Inherits="Preservable">
@@ -939,7 +939,7 @@
 		<stag Name="Random"/>
 	</object>
 	<object Name="Dream Smoke" Inherits="Preservable">
-		<part Name="Render" DisplayName="{{梦烟|梦烟}}" Tile="Items/sw_bottle_smoke.bmp" ColorString="&amp;b" TileColor="&amp;y" DetailColor="b"/>
+		<part Name="Render" DisplayName="{{dreamsmoke|dream smoke}}" Tile="Items/sw_bottle_smoke.bmp" ColorString="&amp;b" TileColor="&amp;y" DetailColor="b"/>
 		<part Name="Description" Short="梦境物质被迅速凝聚成记忆，并在蒸发成情感湿度之前被装瓶。"/>
 		<part Name="PreparedCookingIngredient" type="dissociation" charges="1"/>
 		<part Name="Commerce" Value="8"/>
@@ -1134,7 +1134,7 @@
     <part Name="Render" DisplayName="{{Y|淀粉}}" RenderString="%" ColorString="&amp;Y" TileColor="&amp;y" DetailColor="G" RenderLayer="5" Tile="Items/sw_Jam.bmp"/>
     <part Name="Physics" Takeable="true" IsReal="false"/>
     <part Name="Commerce" Value="0"/>
-    <part Name="Description" Short="无"/>
+    <part Name="Description" Short=""/>
     <part Name="PreparedCookingIngredient" type="starch" charges="1"/>
     <tag Name="Plant"/>
     <tag Name="HiddenInInventory"/>
@@ -1144,7 +1144,7 @@
     <part Name="Render" DisplayName="{{G|木质素}}" RenderString="%" ColorString="&amp;G" TileColor="&amp;y" DetailColor="w" RenderLayer="5" Tile="Items/sw_Jam.bmp"/>
     <part Name="Physics" Takeable="true" IsReal="false"/>
     <part Name="Commerce" Value="0"/>
-    <part Name="Description" Short="无"/>
+    <part Name="Description" Short=""/>
     <part Name="PreparedCookingIngredient" type="lignin" charges="1"/>
     <tag Name="Plant"/>
     <tag Name="HiddenInInventory"/>

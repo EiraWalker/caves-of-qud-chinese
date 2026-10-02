@@ -1,0 +1,25 @@
+{
+  "status": "partial",
+  "runtime_tested_payload_matches_release": true,
+  "compared_files": 32,
+  "completed": [
+    "game startup and initial data loading",
+    "Chinese main menu display",
+    "new-game mode selection screen"
+  ],
+  "not_completed": [
+    "completed character creation",
+    "entered game world",
+    "quest progression",
+    "save and reload"
+  ],
+  "evidence": [
+    "screenshots/main-menu.png",
+    "screenshots/mode-selection.png"
+  ],
+  "limitations": [
+    "Partial English text remains.",
+    "Ten Chinese characters are missing from the static font.",
+    "Translation accuracy and full gameplay compatibility are not established by static checks."
+  ]
+}

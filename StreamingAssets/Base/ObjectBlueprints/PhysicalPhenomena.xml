@@ -1,4 +1,4 @@
-﻿<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <objects>
 
   <!--    
@@ -19,7 +19,7 @@
 
   <object Name="PhysicalObject" Inherits="Object">
     <part Name="Render" DisplayName="[物体]" RenderString="?" RenderLayer="1" RenderIfDark="true"/>
-    <part Name="Physics" Category="杂项" IsReal="true" Solid="false" Weight="1"/>
+    <part Name="Physics" Category="Miscellaneous" IsReal="true" Solid="false" Weight="1"/>
     <part Name="MeleeWeapon" BaseDamage="1d2" Stat="Strength" Skill="Cudgel"/>
     <part Name="Commerce" Value="0.01"/>
     <part Name="Description" Short="一个令人作呕的样本。"/>
@@ -106,7 +106,7 @@
     <part Name="LiquidVolume" MaxVolume="-1" Volume="10" StartVolume="10d10" InitialLiquid="putrid-500,blood-300,wax-100,ink-100"/>
   </object>
   <object Name="UnctuousAlgalWaterPool" Inherits="Water">
-    <part Name="LiquidVolume" MaxVolume="-1" Volume="10" StartVolume="500" InitialLiquid="water-600,algae-300,gel-100" />
+    <part Name="LiquidVolume" MaxVolume="-1" Volume="10" StartVolume="500" InitialLiquid="water-600,algae-300,gel-100"/>
   </object>
   <object Name="BrackishPool" Inherits="Water">
     <part Name="LiquidVolume" MaxVolume="-1" Volume="10" StartVolume="10d10" InitialLiquid="water-900,salt-100"/>
@@ -127,7 +127,7 @@
     <part Name="LiquidVolume" MaxVolume="-1" Volume="300" InitialLiquid="water-1000"/>
   </object>
   <object Name="FreshWaterPool500" Inherits="Water">
-    <part Name="LiquidVolume" MaxVolume="-1" Volume="500" InitialLiquid="water-1000" />
+    <part Name="LiquidVolume" MaxVolume="-1" Volume="500" InitialLiquid="water-1000"/>
   </object>
   <object Name="DeepFreshWaterPool" Inherits="Water">
     <part Name="LiquidVolume" MaxVolume="-1" Volume="2000" InitialLiquid="water-1000"/>
@@ -431,9 +431,9 @@
     <part Name="Gas" Density="80"/>
   </object>
   <object Name="CryoGas1000" Inherits="CryoGas">
-    <part Name="Gas" Density="1000" />
+    <part Name="Gas" Density="1000"/>
   </object>
-  
+
   <object Name="AcidGas" Inherits="Gas">
     <part Name="Render" DisplayName="腐蚀气体"/>
     <part Name="Gas" GasType="AcidGas" ColorString="&amp;g^G"/>
@@ -736,14 +736,13 @@
     <part Name="Distraction"/>
     <part Name="HologramMaterial"/>
     <part Name="HologramInvulnerability"/>
-    <part Name="Combat"/>
     <tag Name="IgnoresGravity"/>
     <tag Name="ExcludeFromDynamicEncounters" Value="*noinherit"/>
   </object>
   <object Name="RealityStabilizationField" Inherits="Object">
     <part Name="Render" DisplayName="{{normal|常态领域}}" RenderLayer="-1" RenderString=" " Tile="Terrain/sw_normality_field.bmp" ColorString="&amp;k" Occluding="false" RenderIfDark="false"/>
     <part Name="AnimatedMaterialRealityStabilizationField"/>
-    <part Name="UnityPrefabImposter" PrefabID="Prefabs/Particles/NormalityField"/>
+    <part Name="PrefabImposter" Prefab="Prefabs/Particles/NormalityField"/>
     <part Name="Physics" Weight="100000" FlameTemperature="99999" VaporTemperature="99999" FreezeTemperature="-99999" BrittleTemperature="-99999" Takeable="false" Solid="false"/>
     <part Name="NoDamage"/>
     <part Name="RealityStabilization" Strength="100" WorksOnSelf="true" WorksOnCellContents="true" SelfVisibility="0" IsTechScannable="false"/>

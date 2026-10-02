@@ -1,0 +1,238 @@
+{
+  "release": "v2.0.211.51-experimental.1",
+  "status": "experimental",
+  "target_game_version": "2.0.211.51",
+  "target_unity_version": "6000.0.77f1",
+  "platform": "Windows x64 Mono",
+  "translation_source": {
+    "repository": "https://github.com/lofucc/caves-of-qud-chinese",
+    "commit": "70bcb618ead20412ba9ed4bfbf11ead7462bdc32",
+    "version": "2.0.210.20"
+  },
+  "files": [
+    {
+      "path": "CoQ_Data/Managed/Assembly-CSharp.dll",
+      "repository_path": "Managed/Assembly-CSharp.dll",
+      "bytes": 11419136,
+      "sha256": "06c0b9a0fb5bd996047e846644425c4f5a6d4a4c93e17d20ae50dd8f904579dd",
+      "original_sha256": "8c3b0fc371eaffc85e3dc971e8ffcb21dfc6b05fb25b92398fbd474260598000"
+    },
+    {
+      "path": "CoQ_Data/sharedassets0.assets",
+      "repository_path": "sharedassets0.assets",
+      "bytes": 60306688,
+      "sha256": "75cff5ec17ad300dcfa5fb55d2a6e4fd3807641f241da5a5b07136d957027f9e",
+      "original_sha256": "3595313a75c7d32b8afcc73dd7d78f744cdb8bea8088439151782922a5eae26d"
+    },
+    {
+      "path": "CoQ_Data/StreamingAssets/Base/ActivatedAbilities.xml",
+      "repository_path": "StreamingAssets/Base/ActivatedAbilities.xml",
+      "bytes": 77992,
+      "sha256": "809a1acc715726695af48144b8a1e33c8fbc9a9c5986d08a5a2c2b043393c9c6",
+      "original_sha256": "14bc3bc2c540a72336f46654e2697bfd2f109c3809c0cb151d218f271231aa32"
+    },
+    {
+      "path": "CoQ_Data/StreamingAssets/Base/Books.xml",
+      "repository_path": "StreamingAssets/Base/Books.xml",
+      "bytes": 149461,
+      "sha256": "dbb825f6fc2116f792c66f9e0f93df3071b5539b8a3d7987ddabc975e52efccd",
+      "original_sha256": "8ef553098a12a3d2facb6b7a654e9dd95af65ab715bb9cc7ba4cb65d50dd20c5"
+    },
+    {
+      "path": "CoQ_Data/StreamingAssets/Base/Commands.xml",
+      "repository_path": "StreamingAssets/Base/Commands.xml",
+      "bytes": 44839,
+      "sha256": "08e723e02d2f06a679d3d6ba12a45d56148340ca2a1aa946741689d06df7fd79",
+      "original_sha256": "15041531378847eba3e3a7efbb5212c5234e4698d880f1358b02eb58500430b7"
+    },
+    {
+      "path": "CoQ_Data/StreamingAssets/Base/Conversations.xml",
+      "repository_path": "StreamingAssets/Base/Conversations.xml",
+      "bytes": 644630,
+      "sha256": "12ebfdc5cbb92dd738409255873fb7a54cd80c24a1985e36d8386b6cf98539b5",
+      "original_sha256": "04aadcdba7a88c3c6d2af27d5700e831e0de03fdc4c4410647f85eb40be31da8"
+    },
+    {
+      "path": "CoQ_Data/StreamingAssets/Base/EmbarkModules.xml",
+      "repository_path": "StreamingAssets/Base/EmbarkModules.xml",
+      "bytes": 29985,
+      "sha256": "f3c622871d8e8d5edfc692e3fa621ddbf846e288edbc2df1bc946e2147384f3e",
+      "original_sha256": "0c4f708a3cb10069ba1c4c2ae9ee3ecaf5b05bd4d96af8c525616ee5ebd16a4c"
+    },
+    {
+      "path": "CoQ_Data/StreamingAssets/Base/Factions.xml",
+      "repository_path": "StreamingAssets/Base/Factions.xml",
+      "bytes": 60809,
+      "sha256": "5656eadc48155d38c6670cac25ca81af2e05c3306413e5b17de7d32ed5818d24",
+      "original_sha256": "e04cef810a24988e63d66aaf22e60dee5a28c6d074809eeef94a2aa399a580a1"
+    },
+    {
+      "path": "CoQ_Data/StreamingAssets/Base/Genders.xml",
+      "repository_path": "StreamingAssets/Base/Genders.xml",
+      "bytes": 12186,
+      "sha256": "d9c0ec8f6c1c829ab9f94005888e9e8faf04fbae26327e6bc28113808f874cae",
+      "original_sha256": "52b78ae18ef17bffa5c73c2ebf54bbf992446d752714fa1ba0bcf55cbd017fa6"
+    },
+    {
+      "path": "CoQ_Data/StreamingAssets/Base/Genotypes.xml",
+      "repository_path": "StreamingAssets/Base/Genotypes.xml",
+      "bytes": 4209,
+      "sha256": "303ade5d3af701150255937cfe6e33a738cd3ed5421d7dc275df0e20573afedd",
+      "original_sha256": "d11de508ab52c498e354ca12f73bd8ffa01930faee4e985ec33a3b96dd66ba87"
+    },
+    {
+      "path": "CoQ_Data/StreamingAssets/Base/HiddenConversations.xml",
+      "repository_path": "StreamingAssets/Base/HiddenConversations.xml",
+      "bytes": 103034,
+      "sha256": "4e5425f2a5822ffc79a45ae29f51722032d30b248bbfe7f41dd9ef94ad79c2b1",
+      "original_sha256": "b2bee43569ac591b1002388dba168a380ad5f24a278c8711c4cae9f57955c6d3"
+    },
+    {
+      "path": "CoQ_Data/StreamingAssets/Base/Manual.xml",
+      "repository_path": "StreamingAssets/Base/Manual.xml",
+      "bytes": 24369,
+      "sha256": "52681036174b74a43830369576b51e2e519012c43694efbf204804cfe9a52fef",
+      "original_sha256": "bd3524a4facea423aab56288d73bd2a79e9ac7aedb58fad8acf9a13c020862f9"
+    },
+    {
+      "path": "CoQ_Data/StreamingAssets/Base/Mods.xml",
+      "repository_path": "StreamingAssets/Base/Mods.xml",
+      "bytes": 12752,
+      "sha256": "c216dad7ad272be457b02c9b0d788d0b877729d6aeced2a8364c6e65aef78712",
+      "original_sha256": "ab8d8f5b0e08f7d0ca5136810aab49071dfa31548e3c365230e371fbe4a0825e"
+    },
+    {
+      "path": "CoQ_Data/StreamingAssets/Base/Mutations.xml",
+      "repository_path": "StreamingAssets/Base/Mutations.xml",
+      "bytes": 18724,
+      "sha256": "ae1787fd5eb9207947ac68dce7e071406ae921e1d33c2ee99b3d25ede7806b11",
+      "original_sha256": "14865e06c3202593b319d64ec404c67ffbe764c92a84fae368a36fc85d558537"
+    },
+    {
+      "path": "CoQ_Data/StreamingAssets/Base/Naming.xml",
+      "repository_path": "StreamingAssets/Base/Naming.xml",
+      "bytes": 172472,
+      "sha256": "0e648519dbbe70815548a06aac2303f36757c1e44cba4da78a9f395012f09dca",
+      "original_sha256": "140e24058994a3ac3c93192e666acbce08d5e8374f1b41b4cd456b85bd7ba420"
+    },
+    {
+      "path": "CoQ_Data/StreamingAssets/Base/ObjectBlueprints/Creatures.xml",
+      "repository_path": "StreamingAssets/Base/ObjectBlueprints/Creatures.xml",
+      "bytes": 948138,
+      "sha256": "35d7d3cad75c93e724ef1f4a5cb35b6349617a37069de5090cdb72499fb952cb",
+      "original_sha256": "66295225f7821f87a0d809c94a5ac6430acf2c4cf63d3d10b9acbf0f237c3d95"
+    },
+    {
+      "path": "CoQ_Data/StreamingAssets/Base/ObjectBlueprints/Data.xml",
+      "repository_path": "StreamingAssets/Base/ObjectBlueprints/Data.xml",
+      "bytes": 57243,
+      "sha256": "800cde044149280689f992a091603bfd6eaf44827b7b51f2959dc32141e92ef0",
+      "original_sha256": "a2a526a9e171c2b7e0590ed99f5c82b0c127fd3bde8e41c8042c791c562c1c6c"
+    },
+    {
+      "path": "CoQ_Data/StreamingAssets/Base/ObjectBlueprints/Foods.xml",
+      "repository_path": "StreamingAssets/Base/ObjectBlueprints/Foods.xml",
+      "bytes": 81002,
+      "sha256": "349842eebc75f57befff1f13b43b3025dac63434084f5640af797c2d17c4a25f",
+      "original_sha256": "ef089e3dcd5f21f2dff422529afa0183d7003ea9ac1757cfd01636021ad2f4d8"
+    },
+    {
+      "path": "CoQ_Data/StreamingAssets/Base/ObjectBlueprints/Furniture.xml",
+      "repository_path": "StreamingAssets/Base/ObjectBlueprints/Furniture.xml",
+      "bytes": 379203,
+      "sha256": "61f0c9fc633271fced2a54fd21232b12c9504e61ff8dbb234ac47af9f3818f66",
+      "original_sha256": "b3536f2debf912194e43e23eb5b96e10feafd97dbd4682c807732b2db19054ae"
+    },
+    {
+      "path": "CoQ_Data/StreamingAssets/Base/ObjectBlueprints/HiddenObjects.xml",
+      "repository_path": "StreamingAssets/Base/ObjectBlueprints/HiddenObjects.xml",
+      "bytes": 196264,
+      "sha256": "69dac947a6eb4863b308510ca8cb83dd74162d75252a75e1fce393cf0446f24b",
+      "original_sha256": "050ca3bb673091a9ad872e2bc827ece40efffda5d4f329b745cd07bfaf3e7f45"
+    },
+    {
+      "path": "CoQ_Data/StreamingAssets/Base/ObjectBlueprints/Items.xml",
+      "repository_path": "StreamingAssets/Base/ObjectBlueprints/Items.xml",
+      "bytes": 784471,
+      "sha256": "514898dd80cea354b9b87a5ce2ce1f0d365b1b3428133db17ce0cedb9dba2aae",
+      "original_sha256": "49aa1ed76bae9eb03231fb486ccaaeee3bdb4412e7a64e6d5ea3425ef0dbe2ec"
+    },
+    {
+      "path": "CoQ_Data/StreamingAssets/Base/ObjectBlueprints/PhysicalPhenomena.xml",
+      "repository_path": "StreamingAssets/Base/ObjectBlueprints/PhysicalPhenomena.xml",
+      "bytes": 38615,
+      "sha256": "ccd9f6eab2e2d8f70561578be407d97f217bad4eacc4ca6880be5f2884ea89bd",
+      "original_sha256": "30d4039dc4e78e9d77eebe1bc002792fd64a5394d2ff0c3547bd826f58e51f44"
+    },
+    {
+      "path": "CoQ_Data/StreamingAssets/Base/ObjectBlueprints/Walls.xml",
+      "repository_path": "StreamingAssets/Base/ObjectBlueprints/Walls.xml",
+      "bytes": 137409,
+      "sha256": "b960f275a982166b4b8dc31cfbf57410f9bebe5ce46fad588c013580fe3284cb",
+      "original_sha256": "7ef3e50125236ba8497c9f86814e595e4de86c15a3a0be13eb6a403debe4492e"
+    },
+    {
+      "path": "CoQ_Data/StreamingAssets/Base/ObjectBlueprints/Widgets.xml",
+      "repository_path": "StreamingAssets/Base/ObjectBlueprints/Widgets.xml",
+      "bytes": 45121,
+      "sha256": "cada00704178964c0b6a470f2cc18155fc5c2f78e26d2a6a5a2b29ef03aa61f3",
+      "original_sha256": "106d02215c534bc3f60e41386815e8a2b9e4fa1245bc27fc79f026c09124f3bb"
+    },
+    {
+      "path": "CoQ_Data/StreamingAssets/Base/ObjectBlueprints/WorldTerrain.xml",
+      "repository_path": "StreamingAssets/Base/ObjectBlueprints/WorldTerrain.xml",
+      "bytes": 73245,
+      "sha256": "1d5bfb25f9bf6119b1dbb1c351716e6cf8bba20f4a9ba3a75aeed71c5cf4558b",
+      "original_sha256": "dbb9950c5a00284561a4a0c254d00a5c18f05df007719c685f186318aa6f6970"
+    },
+    {
+      "path": "CoQ_Data/StreamingAssets/Base/ObjectBlueprints/ZoneTerrain.xml",
+      "repository_path": "StreamingAssets/Base/ObjectBlueprints/ZoneTerrain.xml",
+      "bytes": 95217,
+      "sha256": "8640cf90e6934b2039a40dcb9a8b5e5f85c9fc547c51731336e5415de5ea57ed",
+      "original_sha256": "bc5d62ea7daa6fa76a4a5e7e8a92e40494b7957d63273249396f2d036494bb7b"
+    },
+    {
+      "path": "CoQ_Data/StreamingAssets/Base/Options.xml",
+      "repository_path": "StreamingAssets/Base/Options.xml",
+      "bytes": 37805,
+      "sha256": "7a14c6450ec39c25bb6917dac082ef9c4e12ceaac1eb6a4b38705da59b1fa72e",
+      "original_sha256": "7adc965775a1c61fcc2b54a840205d3eb564e1025b5b04d889247a4ba81fb85e"
+    },
+    {
+      "path": "CoQ_Data/StreamingAssets/Base/Quests.xml",
+      "repository_path": "StreamingAssets/Base/Quests.xml",
+      "bytes": 28462,
+      "sha256": "5023502dfe37e2f1e78b1305dba550870b798a45e74d6d211db6c428c4abb9e0",
+      "original_sha256": "5082634afdb72e3ae087edaf796c994a94bde882f48276af3c7e5d778f1c6cea"
+    },
+    {
+      "path": "CoQ_Data/StreamingAssets/Base/Skills.xml",
+      "repository_path": "StreamingAssets/Base/Skills.xml",
+      "bytes": 48447,
+      "sha256": "2a7f1bcecdcdac5947a1ac6dee3cd080fd9130a84801e05a79ee8ad579fe2835",
+      "original_sha256": "08dc0bdbac6fb5a4f53bddd863564bf4430e2d4042751c116c24aeeed4d4964e"
+    },
+    {
+      "path": "CoQ_Data/StreamingAssets/Base/SparkingBaetyls.xml",
+      "repository_path": "StreamingAssets/Base/SparkingBaetyls.xml",
+      "bytes": 1434,
+      "sha256": "554c1bbaf7246d636aa3ded59f8a407066413134a5abd2d310d4fe262c9e3aa9",
+      "original_sha256": "638fc0dde71b0f2f71ee26537001dde7125f488ebb179d435fc8749a43c35118"
+    },
+    {
+      "path": "CoQ_Data/StreamingAssets/Base/Subtypes.xml",
+      "repository_path": "StreamingAssets/Base/Subtypes.xml",
+      "bytes": 13017,
+      "sha256": "11bb1abc58c4393ce2b8711c335df7698dd2ed24a1777d65d7a0db7011d27162",
+      "original_sha256": "c382ae480d6636cb4a4bbb019d94f0799925326b24b99126395d2ced3ab31ec4"
+    },
+    {
+      "path": "CoQ_Data/StreamingAssets/Base/Text.txt",
+      "repository_path": "StreamingAssets/Base/Text.txt",
+      "bytes": 3357,
+      "sha256": "51edcd17c2693a4689a3974aef4f4c79a3b15237682707e7a6af1ee7248261d8",
+      "original_sha256": "ce1cd698cd79ae99ee5b84a8799e8f1e9def9e45b2c8eb00e6b941ace0d92505"
+    }
+  ]
+}

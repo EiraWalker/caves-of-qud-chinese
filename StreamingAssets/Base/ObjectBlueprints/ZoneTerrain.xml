@@ -1,4 +1,4 @@
-﻿<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <objects>
 
   <!--    
@@ -20,7 +20,7 @@
   
   <object Name="Plant" Inherits="PhysicalObject">
     <part Name="Render" DisplayName="[植物]" RenderLayer="3" RenderString="157" Tile="assets_content_textures_tiles_tile-9-4.png" ColorString="&amp;G" Occluding="false"/>
-    <part Name="Physics" Conductivity="60" Solid="false" Weight="200" Category="植物" Takeable="false"/>
+    <part Name="Physics" Conductivity="60" Solid="false" Weight="200" Category="Plants" Takeable="false"/>
     <part Name="MentalShield"/>
     <part Name="PlantProperties"/>
     <part Name="NoBleed"/>
@@ -49,8 +49,8 @@
     <tag Name="BodyType" Value="Tree"/>
     <tag Name="PrimaryLimbType" Value="Arm"/>
     <tag Name="BaseObject" Value="*noinherit"/>
-    <tag Name="TakeDamageSound" Value="Sounds/Damage/sfx_damage_tree" />
-    <tag Name="DeathSounds" Value="Sounds/Damage/sfx_destroy_tree" />
+    <tag Name="TakeDamageSound" Value="Sounds/Damage/sfx_damage_tree"/>
+    <tag Name="DeathSounds" Value="Sounds/Damage/sfx_destroy_tree"/>
   </object>
   <object Name="SolidTree" Inherits="Tree">
     <part Name="Render" RenderString="230" ColorString="&amp;w" TileColor="&amp;g" DetailColor="w" Occluding="true" RenderLayer="7"/>
@@ -499,8 +499,8 @@
 
   <!-- Unique -->
   <object Name="Yempuris" Inherits="BasePlant">
-    <part Name="Render" RenderIfDark="true" Visible="true" DisplayName="耶姆普里斯菲" RenderLayer="10" RenderString="228" ColorString="&amp;g" DetailColor="m" Tile="Terrain/yempuris-phi-1.png" />
-        <builder Name="RandomTile" Tiles="Terrain/yempuris-phi-1.png,Terrain/yempuris-phi-2.png,Terrain/yempuris-phi-3.png,Terrain/yempuris-phi-4.png" />
+    <part Name="Render" RenderIfDark="true" Visible="true" DisplayName="耶姆普里斯菲" RenderLayer="10" RenderString="228" ColorString="&amp;g" DetailColor="m" Tile="Terrain/yempuris-phi-1.png"/>
+    <builder Name="RandomTile" Tiles="Terrain/yempuris-phi-1.png,Terrain/yempuris-phi-2.png,Terrain/yempuris-phi-3.png,Terrain/yempuris-phi-4.png"/>
     <part Name="Brain" Hostile="false" Wanders="false" Mobile="false"/>
     <stat Name="Hitpoints" Value="50"/>
     <stat Name="HeatResistance" Value="25"/>
@@ -546,7 +546,7 @@
     <part Name="Render" Tile="Items/sw_mushroom.bmp" RenderIfDark="true" DisplayName="{{o|埃尔卡特}}" DetailColor="o" RenderString="*" ColorString="&amp;O"/>
     <part Name="Corpse" CorpseChance="0" CorpseBlueprint="Godshroom Cap"/>
     <stat Name="Hitpoints" Value="3"/>
-    <part Name="Description" Short="它的外观充满了发光的珊瑚，这种蘑菇吸引了你的眼球，无与伦比。Qud 从未见过这样的色彩，于是你自问: 是什么样的光辉之雨染红了它的肉身？难道是彩虹林土壤中木乃伊化的吞噬者的一丝痕迹？"/>
+    <part Name="Description" Short="Its aspect imbued with lucent coral, this mushroom catches your eye like no other. Qud knows no such hue, and so you ask =player.reflexive=: what sort of radiant rain dyed its flesh? Could it be an iota of the Eaters themselves, mummified in the soil of the Rainbow Wood?"/>
     <part Name="Harvestable" DestroyOnHarvest="true" OnSuccess="Godshroom Cap"/>
     <tag Name="NoClear"/>
     <part Name="Interesting" Radius="2"/>
@@ -815,7 +815,7 @@
 		<part Name="Physics" Weight="1000"/>
 		<stat Name="Hitpoints" Value="2000"/>
 		<part Name="ConversationScript" ConversationID="ChavvahFrontChime"/>
-		<part Name="UnityPrefabImposter" PrefabID="Prefabs/Particles/TreeGlow"/>
+		<part Name="PrefabImposter" Prefab="Prefabs/Particles/TreeGlow"/>
     <part Name="Interesting" Radius="1" Key="Chavvah Chime"/>
     <tag Name="ExcludeFromDynamicEncounters"/>
 	</object>
@@ -825,7 +825,7 @@
 		<part Name="Physics" Weight="1000"/>
 		<stat Name="Hitpoints" Value="2000"/>
 		<part Name="ConversationScript" ConversationID="ChavvahFrontChime"/>
-		<part Name="UnityPrefabImposter" PrefabID="Prefabs/Particles/TreeGlow"/>
+		<part Name="PrefabImposter" Prefab="Prefabs/Particles/TreeGlow"/>
     <part Name="Interesting" Radius="1" Key="Chavvah Chime"/>
     <tag Name="ExcludeFromDynamicEncounters"/>
 	</object>	
@@ -873,7 +873,7 @@
 		<part Name="GameUnique" State="TauElse"/>
 		<tag Name="PaintWith" Value="ChavvahRoots"/>
 		<tag Name="ExcludeFromDynamicEncounters"/>
-		<part Name="UnityPrefabImposter" PrefabID="Prefabs/Particles/TreeGlow"/>
+		<part Name="PrefabImposter" Prefab="Prefabs/Particles/TreeGlow"/>
     <part Name="Interesting" Radius="1"/>
 	</object>
 
@@ -918,7 +918,7 @@
   </object>
   <object Name="ClamGrass" Inherits="Floor">
     <part Name="Render" DisplayName="[地面]" RenderString="." RenderLayer="0" ColorString="&amp;O" RenderIfDark="true" DetailColor="" Tile="Terrain/sw_grass2.bmp"/>
-    <part Name="UnityPrefabImposter" PrefabID="Prefabs/Particles/ClamGlow"/>
+    <part Name="PrefabImposter" Prefab="Prefabs/Particles/ClamGlow"/>
   </object>
   <object Name="ArenaFloor" Inherits="Floor">
     <part Name="Render" DisplayName="[地面]" RenderString="." RenderLayer="0" RenderIfDark="true" Tile="terrain/sw_arena_floor.bmp"/>
@@ -926,8 +926,8 @@
     <tag Name="ExcludeFromDynamicEncounters" Value="*noinherit"/>
   </object>
   <object Name="VestibuleFloor" Inherits="ArenaFloor">
-    <part Name="Render" ColorString="&amp;K" />    
-    <tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
+    <part Name="Render" ColorString="&amp;K"/>    
+    <tag Name="ExcludeFromDynamicEncounters" Value="*noinherit"/>
   </object>
   <object Name="DirtFloor" Inherits="Floor">
     <part Name="Render" DisplayName="压实的泥土地面" RenderString="250" ColorString="&amp;w" DetailColor="w" RenderLayer="0"/>
@@ -955,19 +955,19 @@
   <object Name="WhiteTile" Inherits="DirtPath">
     <part Name="Render" DisplayName="白色瓷砖" RenderString="250" ColorString="&amp;y" DetailColor="Y" RenderLayer="0"/>
     <removepart Name="RandomTileOnMove"/>
-    <tag Name="NoTwiddle" />
+    <tag Name="NoTwiddle"/>
     <tag Name="NoSparkingQuest"/>
   </object>
   <object Name="GreenTile" Inherits="DirtPath">
     <part Name="Render" DisplayName="绿瓷砖" RenderString="250" ColorString="&amp;c" DetailColor="C" RenderLayer="0"/>
     <removepart Name="RandomTileOnMove"/>
-    <tag Name="NoTwiddle" />
+    <tag Name="NoTwiddle"/>
     <tag Name="NoSparkingQuest"/>
   </object>
   <object Name="RedTile" Inherits="DirtPath">
     <part Name="Render" DisplayName="红砖" RenderString="177" ColorString="&amp;b^c" DetailColor="C" RenderLayer="0"/>
     <removepart Name="RandomTileOnMove"/>
-    <tag Name="NoTwiddle" />
+    <tag Name="NoTwiddle"/>
     <tag Name="NoSparkingQuest"/>
   </object>
   <object Name="FungalTrailBrick" Inherits="Floor">
@@ -1009,7 +1009,7 @@
     <part Name="Physics" Weight="50" Takeable="false" Solid="false"/>
     <tag Name="Tier" Value="1"/>
     <tag Name="SuspendedPlatform"/>
-  </object>
+  </object>  
   <object Name="MetalWalkway" Inherits="Walkway">
     <part Name="Render" DisplayName="金属步道" ColorString="&amp;r" DetailColor="C"/>
     <part Name="Description" Short="金属矩形拼接成路径。"/>
@@ -1025,6 +1025,12 @@
     <part Name="Render" DisplayName="大理石步道" ColorString="&amp;K" TileColor="&amp;K" DetailColor="C"/>
     <part Name="Description" Short="大理石矩形铺成的小径。"/>
     <part Name="Physics" Weight="10000" FlameTemperature="99999" VaporTemperature="1500" Takeable="false"/>
+  </object>
+  <object Name="CyanMarbleWalkway" Inherits="Walkway">
+    <part Name="Render" DisplayName="marble walkway" ColorString="&amp;c" TileColor="&amp;c" DetailColor="C"/>
+    <part Name="Description" Short="Marble rectangles tesselate the path."/>
+    <part Name="Physics" Weight="10000" FlameTemperature="99999" VaporTemperature="1500" Takeable="false"/>
+    <tag Name="AggregateWith" Value="MarbleWalkway"/>
   </object>
   <object Name="BlackMarbleWalkway" Inherits="Walkway">
     <part Name="Render" DisplayName="黑色大理石步道" ColorString="&amp;K" TileColor="&amp;K" DetailColor="y"/>
@@ -1047,18 +1053,18 @@
     <part Name="Render" DisplayName="[地面]" RenderString="." RenderLayer="0" RenderIfDark="true" ColorString="&amp;C^k" DetailColor="k" Tile="assets_content_textures_tiles_tile-dirt.png"/>
     <part Name="Physics" Weight="50" Takeable="false" Solid="false"/>
     <intproperty Name="Bridge" Value="1"/>
-    <tag Name="NoTwiddle" />
+    <tag Name="NoTwiddle"/>
     <tag Name="NoSparkingQuest"/>
     <tag Name="ExcludeFromDynamicEncounters" Value="*noinherit"/>
   </object>
-    <object Name="BlueMarbleFloor" Inherits="MarbleFloor">
-    <part Name="Render" ColorString="&amp;B^k" />
+  <object Name="BlueMarbleFloor" Inherits="MarbleFloor">
+    <part Name="Render" ColorString="&amp;B^k"/>
   </object>
   <object Name="GoldMarbleFloor" Inherits="MarbleFloor">
-    <part Name="Render" ColorString="&amp;W^k" />
+    <part Name="Render" ColorString="&amp;W^k"/>
   </object>
   <object Name="GreyMarbleFloor" Inherits="MarbleFloor">
-    <part Name="Render" ColorString="&amp;y^k" />
+    <part Name="Render" ColorString="&amp;y^k"/>
   </object>
   <object Name="BrineBridge" Inherits="Furniture">
     <part Name="Render" DisplayName="桥" RenderString="#" RenderLayer="3" ColorString="&amp;w" Tile="tiles/sw_floor_brick1.bmp" DetailColor="W" Occluding="false" RenderIfDark="true"/>
@@ -1074,7 +1080,7 @@
   </object>
   <object Name="HighSaltDune" Inherits="Floor">
     <part Name="Render" DisplayName="盐丘" RenderString="177" ColorString="&amp;Y" DetailColor="y" RenderLayer="0"/>
-    <part Name="UnityPrefabImposter" PrefabID="Prefabs/Particles/DesertWinds"/>
+    <part Name="PrefabImposter" Prefab="Prefabs/Particles/DesertWinds"/>
   </object>
   <object Name="HighSaltDuneWhite" Inherits="HighSaltDune">
     <part Name="Render" ColorString="&amp;y" DetailColor="Y"/>
@@ -1231,7 +1237,7 @@
   </object>
   <object Name="FrostWeb" Inherits="Web">
     <part Name="Render" DisplayName="霜冻蛛网" Tile="terrain/sw_web.bmp" RenderString="015" ColorString="&amp;C" RenderLayer="3" RenderIfDark="false"/>
-		<part Name="Description" Short="闪耀的丝线编织成捕捉螺旋，并固定在一系列桥线上。霜花分形纹理覆盖在二维平面之外的丝线上。"/>		
+		<part Name="Description" Short="Glistening silk was spun to a capture spiral and mounted on a series of bridge threads. Hoarfrost fractals texture the strands outside the 2D plane."/>		
 		<part Name="Physics" Solid="false" Takeable="false" Weight="5" Temperature="-250" SpecificHeat="0" FreezeTemperature="-9999" BrittleTemperature="-9999" FlameTemperature="500" VaporTemperature="300"/>
     <stat Name="Hitpoints" Value="150"/>
     <part Name="Sticky" DestroyOnBreak="true"/>
@@ -1260,7 +1266,7 @@
   <object Name="Stairs" Inherits="InorganicObject">
     <part Name="Render" Visible="true" DisplayName="楼梯" RenderString="&lt;" Occluding="false" RenderLayer="7" RenderIfDark="true"/>
     <tag Name="OverlayColor" Value="&amp;M^k"/>
-    <tag Name="ImportantOverlayObject"/>
+    <part Name="ImportantOverlayObject"/>
     <part Name="Physics" Solid="false" Takeable="false" Weight="999999" FlameTemperature="999999" VaporTemperature="999999"/>
     <stat Name="Hitpoints" Value="9999"/>
     <part Name="MentalShield"/>

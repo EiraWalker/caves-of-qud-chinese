@@ -1,4 +1,4 @@
-﻿<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <objects>
 
   <!--    
@@ -1161,7 +1161,7 @@
   <object Name="StoneHalfWall" Inherits="HalfWall">
     <part Name="Render" ColorString="&amp;K^k" DetailColor="y"/>
   </object>
-    <object Name="MoverHalfWall" Inherits="HalfWall">
+  <object Name="MoverHalfWall" Inherits="HalfWall">
     <part Name="Render" ColorString="&amp;w^k" DetailColor="W"/>
   </object>
   <object Name="LowSandstoneWall" Inherits="Sandstone">
@@ -1520,7 +1520,7 @@
     <part Name="Render" ColorString="&amp;K^y" TileColor="&amp;K" DetailColor="y"/>
   </object>
 
-  <!-- 食者之墓 -->
+  <!-- Tomb of the Eaters -->
   <object Name="CatacombWall" Inherits="BaseWallBone">
     <part Name="Render" ColorString="&amp;y^Y" TileColor="&amp;y" DetailColor="Y" DisplayName="压缩骨墙"/>
     <part Name="Description" Short="人类形态的骨骼形状被重新排列以完美镶嵌。圆形头骨需要用尺骨结节填充其序列中的空隙。这世界的边界呈米白色，充满了存在感。"/>
@@ -1661,7 +1661,7 @@
 		<tag Name="SingleTile" Value="Walls/wall_sultan_columns_b-00000000.png"/>
   </object>
   <object Name="InnerSultanWall_Period1" Inherits="BaseInnerSultanWall">
-    <part Name="Render" DisplayName="来自*苏丹1名*苏丹国的镀金大理石" ColorString="&amp;K^C" TileColor="&amp;K" DetailColor="C" Occluding="true"/>
+    <part Name="Render" DisplayName="gilded marble from the sultanate of *Sultan1Name*" ColorString="&amp;K^C" TileColor="&amp;K" DetailColor="C" Occluding="true"/>
     <part Name="Description" Short="珍贵的石料从梦幻大地的深处被拖出，以独眼巨人般的设计堆叠，并雕刻成千朵绽放的花朵。无湿的空气保存了镀金，但时间已磨平了它的棱角。"/>
     <part Name="ReplaceText" Variables="*Sultan1Name*"/>
     <tag Name="PaintedWall" Value="wall_sultan_diamonds_b"/>
@@ -2023,7 +2023,7 @@
   <!-- Nephilim walls -->
 	<object Name="BaseNephilimWall" Inherits="Wall">
 		<part Name="Render" ColorString="&amp;y" DisplayName="奈非利姆墙"/>
-		<part Name="Description" Short="无"/>
+		<part Name="Description" Short=""/>
 		<tag Name="PaintedWall" Value="wall_nephilim_1,wall_nephilim_2"/>
 		<tag Name="PaintedWallAtlas" Value="Assets_Content_Textures_Walls_"/>
 		<tag Name="PaintedWallExtension" Value=".png"/>
@@ -2196,7 +2196,7 @@
     <part Name="ElectricalPowerTransmission" ChargeRate="10000" IsConsumer="true"/>
     <part Name="ChargeSink" ChargeUse="10" NameForStatus="StorageSystem"/>
     <tag Name="PaintedWall" Value="mainframe_tape_drive_1"/>
-    <part Name="AnimatedMaterialMainframeTapeDrive"/>
+    <part Name="AnimatedMaterialMainframeTapeDrive"/>    
   </object>
   <object Name="GritGate Mainframe Status Panel" Inherits="GritGateMainframeWall">
     <part Name="Render" DisplayName="主控状态面板"/>
@@ -2245,6 +2245,7 @@
     <tag Name="PaintedWall" Value="mainframe_status_panel"/>
   </object>
 
+  
   <!-- End wall-likes -->
 	<!-- description waterline -->
 

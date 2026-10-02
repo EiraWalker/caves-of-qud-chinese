@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "version": "2.0.211.51",
+  "types_preserved": 7837,
+  "methods_preserved": 63457,
+  "approved_literals": 7089,
+  "approved_data_fields": 15330,
+  "quest_and_step_ids": "preserved",
+  "original_game_files": "unchanged"
+}

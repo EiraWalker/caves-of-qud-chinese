@@ -1,0 +1,10 @@
+# Preserve patch payload bytes for SHA-256 verification on every platform.
+*.xml -text
+StreamingAssets/Base/Text.txt -text
+*.dll binary
+*.assets binary
+*.png binary
+*.md text eol=lf
+*.json text eol=lf
+*.cs text eol=lf
+*.csproj text eol=lf

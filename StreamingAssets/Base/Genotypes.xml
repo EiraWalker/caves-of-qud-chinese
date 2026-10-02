@@ -1,5 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<!-- 创建角色的基因型描述 -->
+<?xml version='1.0' encoding='utf-8'?>
 <genotypes>
 
   <genotype Name="Mutated Human" MutationPoints="12" StatPoints="44" AllowedMutationCategories="*" RandomWeight="90" DisplayName="变异人" Subtypes="Callings" Class="" Tile="UI/sw_mutant.bmp" DetailColor="g" BodyObject="Humanoid" BaseHPGain="1-4" BaseSPGain="50" BaseMPGain="1" Species="human" IsMutant="true" CharacterBuilderModules="XRL.CharacterBuilds.Qud.QudCasteModule,XRL.CharacterBuilds.Qud.QudCyberneticsModule">
@@ -10,12 +9,12 @@
     <stat Name="Willpower" Minimum="10" Maximum="24" ChargenDescription="你的 {{W|Willpower}} 数值会影响你激活技能的冷却时间，决定你抵抗精神攻击的能力，并且调整你的自然恢复速度。"/>
     <stat Name="Ego" Minimum="10" Maximum="24" ChargenDescription="你的 {{W|Ego}} 数值决定了你精神变异的威力、与商人讨价还价的能力，以及支配其他生物意志的能力。"/>
     <skills>
-      <skill Name="Tactics_Run" />
-      <skill Name="Survival_Camp" />
+      <skill Name="Tactics_Run"/>
+      <skill Name="Survival_Camp"/>
     </skills>
-    <extrainfo>变种人</extrainfo>
-    <extrainfo>中等起始属性</extrainfo>
-    <extrainfo>-600 声望 {{C|普图斯骑士团}}</extrainfo>
+    <extrainfo>Mutations</extrainfo>
+    <extrainfo>Moderate starting attributes</extrainfo>
+    <extrainfo>-600 reputation with {{C|the Putus Templar}}</extrainfo>
   </genotype>
 
   <genotype Name="True Kin" MutationPoints="0" StatPoints="38" AllowedMutationCategories="" CyberneticsLicensePoints="2" RandomWeight="10" DisplayName="真人" Subtypes="Castes" Class="" Tile="UI/sw_truekin.bmp" DetailColor="C" BodyObject="Humanoid" BaseHPGain="1-4" BaseSPGain="70" BaseMPGain="0" Species="human" IsTrueKin="true" CharacterBuilderModules="XRL.CharacterBuilds.Qud.QudCallingModule,XRL.CharacterBuilds.Qud.QudMutationsModule">
@@ -26,18 +25,18 @@
     <stat Name="Willpower" Minimum="12" Maximum="24" ChargenDescription="你的 {{W|Willpower}} 数值会影响你激活技能的冷却时间，决定你抵抗精神攻击的能力，并且调整你的自然恢复速度。"/>
     <stat Name="Ego" Minimum="12" Maximum="24" ChargenDescription="你的 {{W|Ego}} 数值决定了你精神变异的威力、与商人讨价还价的能力，以及支配其他生物意志的能力。"/>
     <skills>
-      <skill Name="Persuasion_RebukeRobot" />
-      <skill Name="Tactics_Run" />
-      <skill Name="Survival_Camp" />
+      <skill Name="Persuasion_RebukeRobot"/>
+      <skill Name="Tactics_Run"/>
+      <skill Name="Survival_Camp"/>
     </skills>
     <reputations>
-      <reputation With="Templar" Value="600" />
+      <reputation With="Templar" Value="600"/>
     </reputations>
-    <extrainfo>起始属性高</extrainfo>
-    <extrainfo>可以植入义体</extrainfo>
-    <extrainfo>{{C|20}} 每个级别额外技能点</extrainfo>
-    <extrainfo>基于角色起源的额外抗性</extrainfo>
-    <extrainfo>可以重编程机器人</extrainfo>
+    <extrainfo>High starting attributes</extrainfo>
+    <extrainfo>Access to cybernetics</extrainfo>
+    <extrainfo>{{C|20}} bonus skill points each level</extrainfo>
+    <extrainfo>Bonus resistances based on arcology of origin</extrainfo>
+    <extrainfo>May rebuke robots</extrainfo>
   </genotype>
 
 </genotypes>

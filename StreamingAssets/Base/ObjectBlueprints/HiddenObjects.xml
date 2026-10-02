@@ -1,4 +1,4 @@
-﻿<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <objects ExcludeFromCorpusGeneration="true">
 
   <!--
@@ -13,7 +13,7 @@
   <object Name="Ehalcodon" Inherits="BaseNephal">
     <part Name="Body" Anatomy="Quadruped"/>
     <part Name="Render" DisplayName="{{M|艾哈尔科顿}}" Tile="Creatures/nephilim_ehalcodon.png" DetailColor="Y"/>
-    <part Name="Description" Short="一个庞大的生物矗立在视野之上，散发着神光。覆盖着纺锤微光的后腿支撑着由这个位面的感知背景辐射勾勒出的生物形态，宽阔的带状翅膀边缘适合在星际风中翱翔。最终，虹彩双光在其tx-玻璃皮肤下翻腾，折射成不可能的超光谱，并以角螺旋的形式从身体中溢出。"/>
+    <part Name="Description" Short="A creature of immensity mounts the upper eyeline and radiates Godlight. Haunches dusted with Spindle glitter support a creature-shape sketched to being by the sentient background radiation of this plane, and wide, banded wings are edged to soar on stellar winds. Finally, irisdual light churning under =pronouns.possessive= tx-glass skin is refracted to the metaspectrum of impossibility and spills out of body in cornu spirals."/>
     <part Name="Honorifics" Ordinary="{{M|星铸}}"/>
     <part Name="Physics" VaporTemperature="15000"/>
     <tag Name="PronounSet" Value="qe/qem/qyr"/>
@@ -121,7 +121,7 @@
     <part Name="AscensionCable"/>
     <tag Name="ForceSmartUse"/>
     <tag Name="ExcludeFromDynamicEncounters"/>
-    <part Name="UnityPrefabImposter" PrefabID="Prefabs/Particles/SpindleRibbon"/>    
+    <part Name="PrefabImposter" Prefab="Prefabs/Particles/SpindleRibbon"/>    
   </object>
   <object Name="Left Spindle Ribbon" Inherits="BaseSpindleSupport">
     <part Name="Render" Tile="Furniture/left-spindle-ribbon.png" ColorString="&amp;C" DetailColor="c" DisplayName="石墨烯丝带"/>
@@ -148,7 +148,7 @@
     <part Name="AscensionCable"/>
     <tag Name="ForceSmartUse"/>
     <tag Name="ExcludeFromDynamicEncounters"/>
-    <part Name="UnityPrefabImposter" PrefabID="Prefabs/Particles/SpindleRibbonDown"/>
+    <part Name="PrefabImposter" Prefab="Prefabs/Particles/SpindleRibbonDown"/>
   </object>
   <object Name="Left Spindle Ribbon Top" Inherits="BaseSpindleSupport">
     <part Name="Render" Tile="Furniture/left-spindle-ribbon-top.png" ColorString="&amp;C" DetailColor="c" DisplayName="石墨烯丝带"/>
@@ -569,14 +569,14 @@
     <part Name="Description" Short="来自宇宙早期的星渣燃烧着兰花和靛蓝色的光芒。"/>
     <stat Name="Hitpoints" Value="500"/>    
     <part Name="AnimatedMaterialMagentaFire"/>
-    <part Name="UnityPrefabImposter" PrefabID="Prefabs/Particles/PurpleBrazierFlames"/>
+    <part Name="PrefabImposter" Prefab="Prefabs/Particles/PurpleBrazierFlames"/>
     <part Name="LightSource" Lit="true" Radius="10"/>
     <part Name="SoundRender" Sound="sfx_torch_flame_lp"/>
     <tag Name="ExcludeFromDynamicEncounters"/>
   </object>
   <object Name="ShevaBrazierGreen" Inherits="ShevaBrazier">
     <part Name="Description" Short="来自宇宙早期的星渣燃烧着叶绿和孔雀石般的色彩。"/>
-    <part Name="UnityPrefabImposter" PrefabID="Prefabs/Particles/GreenBrazierFlames"/>
+    <part Name="PrefabImposter" Prefab="Prefabs/Particles/GreenBrazierFlames"/>
     <part Name="AnimatedMaterialGreenFire"/>
   </object>  
   <object Name="ChevronWall" Inherits="BaseWallMetal">
@@ -710,7 +710,7 @@
     <part Name="MotedAir"/>
     <xtagGrammar iArticle="the"/>
     <part Name="BackdropWhenVisible" BackdropBleedthrough="true"/>
-    <part Name="UnityPrefabImposter" PrefabID="Prefabs/Particles/MotedAir"/>
+    <part Name="PrefabImposter" Prefab="Prefabs/Particles/MotedAir"/>
     <tag Name="NoTeleport" Value="You cannot teleport into the vacuum of space."/>
     <removepart Name="ChasmMaterial"/>
   </object>
@@ -1054,6 +1054,8 @@
     <part Name="Render" DisplayName="星际平台" Tile="Furniture/dock-platform-n.png"/>
     <part Name="Description" Short="黑色的栅格在珠宝般的宇宙光辉中被点亮，六百个世界的蹄印印记在尘埃中。"/>
     <part Name="NoDamage"/>
+    <tag Name="OverlayColor" Value="&amp;M^k"/>
+    <part Name="ImportantOverlayObject"/>
     <tag Name="EnterSound" Value="sfx_endgame_spacedock_platform_move"/>
     <tag Name="ExitSound" Value="sfx_endgame_spacedock_platform_move"/>
     <tag Name="ExcludeFromDynamicEncounters"/>
@@ -1641,7 +1643,6 @@
     <tag Name="PaintedWall" Value="walls_resheph_1_0"/>
     <tag Name="PaintedWallExtension" Value=".png"/>    
     <part Name="AnimatedWallGeneric" Frames="4" Tile="walls_resheph_1_" FrameMS="500" AllowRushing="false"/>
-    TileColorAnimationFrames="0=&amp;y^k,400=&amp;y^y,600=&amp;y^Y,800=&amp;y^m,1000=&amp;y^M" /&gt;
     <part Name="HologramMaterial" ColorStrings="&amp;m^M,&amp;M^m,&amp;m^M,&amp;M^m" DetailColors="k,k,k,k"/>
     <part Name="ConversationScript" ConversationID="ArchonHologram" Filter="Cryptic Machine"/>
   </object>
@@ -1654,6 +1655,7 @@
     <part Name="Render" DisplayName="瑞舍夫·天界之上的全息影像" Tile="Creatures/resheph.png"/>
     <part Name="Description" Short="一条披风从他的肩膀垂下，带着神话般的必然性，而这个数字二元体既暗示着地上的治愈和平，又与天穹相和谐。"/>
     <part Name="ConversationScript" ConversationID="Resheph" Filter="Cryptic Machine"/>
+    <part Name="CrypticParticleText" InitialTimer="2-3"/>
     <tag Name="ExcludeFromDynamicEncounters"/>
     <tag Name="ChatSound" Value="sfx_endgame_supercomputer_chat"/>
     <tag Name="ChatNodeSound" Value="sfx_endgame_supercomputer_chat_dialogNode"/>
@@ -1934,6 +1936,7 @@
     <part Name="Render" DisplayName="{{zetachrome|离子言说之心}}" Tile="Creatures/spoken-ionic.png" RenderString="M" ColorString="&amp;Y" DetailColor="M"/>
     <stat Name="Level" Value="120"/>
     <stat Name="AV" Value="4"/>
+    <part Name="Corpse" CorpseChance="0"/>
     <part Name="Brain" Wanders="false" Calm="true" Factions="Strangers-100"/>
     <stat Name="Hitpoints" Value="800"/>
     <part Name="Body" Anatomy="Tree"/>   
@@ -2054,7 +2057,7 @@
   </object>
   <object Name="Chiliad Torchpost" Inherits="Torchpost">
     <part Name="Render" Tile="Furniture/chiliad-torchpost.png"/>
-    <part Name="UnityPrefabImposter" PrefabID="Prefabs/Particles/TorchpostFlames" Y="2"/>
+    <part Name="PrefabImposter" Prefab="Prefabs/Particles/TorchpostFlames" Y="2"/>
     <part Name="Description" Short="燃烧的Y形干木和铁制灯盏照亮了居所。"/>
     <stag Name="Chiliad"/>
     <tag Name="ExcludeFromDynamicEncounters"/>
@@ -2076,7 +2079,7 @@
   </object>
   <object Name="Mechanical Golem" Inherits="MountedFurniture">
     <part Name="Render" ColorString="&amp;c" DetailColor="y"/>
-    <part Name="Description" Short="来自元素周期表的废金属被焊接成一个神话特征的雕塑：=body.features=。老旧的汤和=催化剂=的溢出物染污了它生锈的躯干，在闷烧的光线下，它的姿势让人联想到一个垂死的=atzmus.creature=。铁制的四肢被打制成=武器技能片段=的形状，在中心位置悬挂着=哈姆萨之手=的破碎符号。"/>
+    <part Name="Description" Short="Scrap metals from abroad the table of elements are welded together in sculpture of the mythic features: =body.features=. Old soup and spills of =catalyst= stain its rusted torso, and in the smoldering light its pose evokes the presence of a dying =atzmus.creature=. Iron limbs were beaten to the shape of =armament.skill.snippet=, and at center mass hangs the broken sigil of =hamsa.an=."/>
     <part Name="Interactable" Action="enter" Message="=object.Does:are= much too old and rusted to enter." UsePopup="true" CanSmartUse="false"/>
     <part Name="ElectricalPowerTransmission" ChargeRate="10000" IsConsumer="true" SparkWhenBrokenAndPowered="false"/>
     <part Name="ChargeSink" ChargeUse="1" NameForStatus="PrimeMover"/>
@@ -2091,14 +2094,14 @@
   </object>
   <object Name="Chiliad Slynth Joppa" Inherits="BaseChiliadSlynth">
     <part Name="Render" DisplayName="斯林特灌溉者" Tile="Creatures/chiliad-slynth-joppa.png" ColorString="&amp;g" DetailColor="G"/>
-    <part Name="Description" Short="=pronouns.Possessive=的帽状叶片像一顶破旧的帽子垂下，遮挡着=pronouns.possessive=在高盐阳光下的发光眼睛。=pronouns.Subjective=熟练地挥舞着一把藤蔓收割者，保护着=pronouns.possessive=娇嫩且易割的根部。"/>
+    <part Name="Description" Short="=pronouns.Possessive= brim leaf flops down like a beaten hat and shades =pronouns.possessive= glowing eyes from the high salt sun. =pronouns.Subjective= =verb:wield:afterpronoun= a vinereaper with practiced care around =pronouns.possessive= tender and scythable roots."/>
     <skill Name="CookingAndGathering_Harvestry"/>
     <inventoryobject Blueprint="Iron Vinereaper"/>
     <tag Name="ExcludeFromDynamicEncounters"/>
   </object>
   <object Name="Chiliad Slynth Grit Gate" Inherits="BaseChiliadSlynth">
     <part Name="Render" DisplayName="斯林特扳手僧" Tile="Creatures/chiliad-slynth-grit-gate.png" ColorString="&amp;c" DetailColor="C"/>
-    <part Name="Description" Short="=pronouns.possessive=的手指茎已经长到足以进行修理的长度，=pronouns.subjective= =verb:tauten:afterpronoun= =pronouns.possessive=根系在地下深处的抓握力，以增强=pronouns.possessive=扳手的扭矩。"/>
+    <part Name="Description" Short="=pronouns.Possessive= finger stems have grown to tinkering length, and =pronouns.subjective= =verb:tauten:afterpronoun= =pronouns.possessive= roots' grip on the underearth to augment the torque of =pronouns.possessive= wrench turns."/>
     <skill Name="Tinkering"/>
     <skill Name="Tinkering_Repair"/>
     <inventoryobject Blueprint="Wrench"/>
@@ -2106,13 +2109,13 @@
   </object>
   <object Name="Chiliad Slynth Bey Lah" Inherits="BaseChiliadSlynth">
     <part Name="Render" DisplayName="斯林特侦察兵" Tile="Creatures/chiliad-slynth-bey-lah.png" ColorString="&amp;w" DetailColor="w"/>
-    <part Name="Description" Short="=pronouns.Subjective= 闻了闻空气，用=pronouns.possessive= 的后根在干燥的土壤中跺了跺。散发着浓烈气味、赭色调的花瓣从=pronouns.possessive= 的头冠和宽阔的臀部飘落。"/>
+    <part Name="Description" Short="=pronouns.Subjective= =verb:sniff:afterpronoun= the air and =verb:stamp:afterpronoun= =pronouns.possessive= hindroots in the dry soil. Pungent, ochre-toned petals flit from =pronouns.possessive= crown and meadow =pronouns.possessive= broad haunches."/>
     <mutation Name="MultipleLegs" Level="3"/>
     <tag Name="ExcludeFromDynamicEncounters"/>
   </object>
   <object Name="Chiliad Slynth Kyakukya" Inherits="BaseChiliadSlynth">
     <part Name="Render" DisplayName="斯林特·苹果嘴" Tile="Creatures/chiliad-slynth-kyakukya.png" ColorString="&amp;r" DetailColor="r"/>
-    <part Name="Description" Short="一群蘑菇在=pronouns.possessive=花冠中共生扎根。=pronouns.possessive=茎被烧焦并撒上了香料，=pronouns.subjective=用木勺搅拌着一杯辛辣的饮料。"/>
+    <part Name="Description" Short="A troop of shrooms have taken symbiotic root in =pronouns.possessive= flower crown. =pronouns.Possessive= stems are singed and peppered with spice, and =pronouns.subjective= =verb:stir:afterpronoun= a zesty punch with a wooden ladel."/>
     <skill Name="CookingAndGathering_Spicer"/>
     <inventoryobject Blueprint="Pestle" Number="1"/>
     <tag Name="ExcludeFromDynamicEncounters"/>
@@ -2128,7 +2131,7 @@
   </object>
   <object Name="Chiliad Slynth Yd Freehold" Inherits="BaseChiliadSlynth">
     <part Name="Render" DisplayName="斯林特笛手" Tile="Creatures/chiliad-slynth-yd.png" ColorString="&amp;B" DetailColor="B"/>
-    <part Name="Description" Short="=pronouns.possessive=的手指茎在木制长笛上弹动滑行，=pronouns.subjective=在褶皱的根须上侧向舞动。=pronouns.possessive=头顶的花朵花瓣同时变换着色彩。"/>
+    <part Name="Description" Short="=pronouns.Possessive= finger stems pop and slide o'er a wooden flute, and =pronouns.subjective= =verb:shuffle:afterpronoun= a lateral jig on pleated roots. The petals of =pronouns.possessive= crowning flower shift colors in happy simultaneity."/>
     <skill Name="Customs"/>
     <skill Name="Customs_Tactful"/>
     <inventoryobject Blueprint="@Junk 1" Number="2-4"/>
@@ -2143,13 +2146,13 @@
   </object>
   <object Name="Chiliad Slynth Mopango" Inherits="BaseChiliadSlynth">
     <part Name="Render" DisplayName="斯林斯友伴" Tile="Creatures/chiliad-slynth-mopango.png" ColorString="&amp;Y" DetailColor="Y"/>
-    <part Name="Description" Short="从它那翠绿的核心中散发出柔和的光芒，所有的叶片都朝向这微小的太阳般弯曲。上方，它那明亮的眼睛闪烁着理想主义的光芒。"/>
+    <part Name="Description" Short="A soft, glowing light radiates from =pronouns.possessive= verdurous core, and all =pronouns.possessive= leafy parts camber toward it like a miniature sun. Above, =pronouns.possessive= brights eyes glint with quixotic purpose."/>
     <mutation Name="LightManipulation" Level="4"/>
     <tag Name="ExcludeFromDynamicEncounters"/>
   </object>
   <object Name="Chiliad Slynth Chavvah" Inherits="BaseChiliadSlynth">
     <part Name="Render" DisplayName="水晶斯林斯" Tile="Creatures/chiliad-slynth-chavvah.png" ColorString="&amp;Y" DetailColor="Y"/>
-    <part Name="Description" Short="一片炽热的水晶碎片嵌在=pronouns.possessive=花冠的核心处，散发着具有洞察力的光芒，代替了眼睛。在其翠绿的身体周围，空气中弥漫着一种沙哑的嗡鸣声。"/>
+    <part Name="Description" Short="A candescent shard of crystal is sat in the core of =pronouns.possessive= flower crown and glows with sightfulness in place of eyes. All about =pronouns.possessive= verdurous body, the air vibrates with a raspy hum."/>
     <skill Name="Discipline_IronMind"/>
     <skill Name="Discipline_Meditate"/>
     <inventoryobject Blueprint="@Gemstones" Number="1"/>
@@ -2157,7 +2160,7 @@
   </object>
   <object Name="Chiliad Slynth Village" Inherits="BaseChiliadSlynth">
     <part Name="Render" DisplayName="斯林特村民" Tile="Creatures/chiliad-slynth-villager.png" ColorString="&amp;y" DetailColor="y"/>
-    <part Name="Description" Short="=pronouns.Possessive= 翠绿的蔓生植物缠绕成了一件三角围裙，而=pronouns.subjective= 以一种奇异且充满使命感的姿态弯曲着身体。一双温暖的眼睛透露出友好之情。"/>
+    <part Name="Description" Short="=pronouns.Possessive= verdurous overgrowth has knit itself to a triangle apron, and =pronouns.subjective= =verb:camber:afterpronoun= with a strange and civic purpose. A pair of warm eyes impress conviviality."/>
     <inventoryobject Blueprint="Vine-Weave Tunic"/>
     <tag Name="ExcludeFromDynamicEncounters"/>
   </object>
@@ -2232,7 +2235,7 @@
   </object>
   <object Name="Fool of the Gyre" Inherits="BaseGyreWight">
     <part Name="Render" DisplayName="涡流愚者" Tile="Creatures/chiliad-gyre-fool.png" DetailColor="M"/>
-    <part Name="Description" Short="身着千年杂色服饰的纤细身影轻盈跃动，其拱形帽上悬挂的小铃铛叮当作响。等待着一切或虚无，独自一人留在被遗弃的秩序中，以愚者的特权在更丰富的现实底文中发言。"/>
+    <part Name="Description" Short="A svelt figure in thousand-year motley prances, and the little tolling bells hanging from =pronouns.possessive= archway cap ding and dong. Waiting for all or none, left alone of =pronouns.possessive= deserted order, =pronouns.subjective= =verb:speak:afterpronoun= with fool's privilege in the undertext of a richer reality."/>
     <part Name="Brain" Wanders="false" Feelings="Player:0"/>
     <part Name="ConversationScript" ConversationID="Fool"/>
     <part Name="Interesting"/>
@@ -2257,7 +2260,7 @@
     <stat Name="Hitpoints" Value="1200"/>    
     <part Name="HologramMaterial"/>
     <part Name="HologramInvulnerability"/>
-    <tag Name="HologramOf" Value="an outworlder" />
+    <tag Name="HologramOf" Value="an outworlder"/>
     <tag Name="IgnoresGravity"/>
     <tag Name="ExcludeFromDynamicEncounters"/>
   </object>
@@ -2301,7 +2304,7 @@
   </object>
   <object Name="Chiliad Creature Apes" Inherits="BaseApe">
     <part Name="Render" DisplayName="=creatureRegionAdjective= 猿" Tile="Creatures/chiliad-ape.png"/>
-    <part Name="Description" Short="=pronouns.Subjective= 蹲坐在谦卑的姿态中，一撮撮彩色的毛发从=pronouns.possessive=脸颊上长出。"/>    
+    <part Name="Description" Short="=pronouns.Subjective= =verb:squat:afterpronoun= low in humble repose, and tufts of colored fur sprout from =pronouns.possessive= cheeks."/>    
     <inventoryobject Blueprint="Chiliad Creature Fist" Number="2"/>
     <mixin Name="BaseChiliadCreatureStats"/>
   </object>
@@ -2362,7 +2365,7 @@
   </object>
   <object Name="Chiliad Creature Chavvah" Inherits="Creature">
     <part Name="Render" DisplayName="=creatureRegionAdjective= 风铃" Tile="Creatures/chiliad-chime.png"/>
-    <part Name="Description" Short="一块不安分的晶体通过转动和伸展，将周围的光线折射开来。"/>
+    <part Name="Description" Short="A fidgeting crystal breaks the ambient rays of light with =pronouns.possessive= turning and craning."/>
     <part Name="Brain" Factions="Chavvah-100"/>
     <part Name="Body" Anatomy="HumanoidOctohedron"/>
     <part Name="Corpse" CorpseChance="100" CorpseBlueprint="GlitterGas"/>
@@ -2391,13 +2394,13 @@
   </object>
   <object Name="Chiliad Creature Crabs" Inherits="BaseCrab">
     <part Name="Render" DisplayName="=creatureRegionAdjective= 螃蟹" Tile="Creatures/chiliad-crab.png"/>
-    <part Name="Description" Short="=pronouns.Subjective= 在低处盘旋，并成对地剪断草。"/>    
+    <part Name="Description" Short="=pronouns.Subjective= =verb:hover:afterpronoun= low to the ground and snips grass in pairs."/>    
     <inventoryobject Blueprint="Chiliad Creature Pincer" Number="1"/>
     <mixin Name="BaseChiliadCreatureStats"/>
   </object>
   <object Name="Chiliad Creature Cragmensch" Inherits="Cragmensch">
     <part Name="Render" DisplayName="岩人 =creatureRegionNoun=" Tile="Creatures/chiliad-cragmensch.png"/>
-    <part Name="Description" Short="一块岩石架上装饰着电线、披肩和珠子。"/>    
+    <part Name="Description" Short="A shelf of rock has decorated =pronouns.reflexive= with wire, shawls, and beads."/>    
     <stat Name="Speed" Value="40"/>
     <stat Name="AV" Value="15"/>
     <mixin Name="BaseChiliadCreatureStats"/>
@@ -2411,39 +2414,39 @@
   </object>
   <object Name="Chiliad Creature Dogs" Inherits="BaseDog">
     <part Name="Render" DisplayName="=creatureRegionAdjective= 犬" Tile="Creatures/chiliad-dog.png"/>
-    <part Name="Description" Short="半月形的耳朵因远处的嚎叫而竖起，它在风中嗅探。"/>    
+    <part Name="Description" Short="Crescent ears perk at a distant howl and =pronouns.subjective= =verb:sniff:afterpronoun= the wind."/>    
     <inventoryobject Blueprint="Chiliad Creature Bite" Number="1"/>
     <builder Name="CreatureRegionSpice" DetailColor="y"/>
     <mixin Name="BaseChiliadCreatureStats"/>
   </object>
   <object Name="Chiliad Creature Dromads" Inherits="Dromad">
     <part Name="Render" DisplayName="德罗马德 =creatureRegionNoun=" Tile="Creatures/chiliad-dromad.png"/>
-    <part Name="Description" Short="=pronouns.Subjective= 摇晃着=pronouns.possessive= 的脖子，随着风的僵硬节奏，并耸动=pronouns.possessive= 的驼峰向前。"/>    
+    <part Name="Description" Short="=pronouns.Subjective= =verb:waggle:afterpronoun= =pronouns.possessive= neck to the stiff rhythms of the wind and shrugs =pronouns.possessive= hump forward."/>    
     <mixin Name="BaseChiliadCreatureStats"/>
   </object>
   <object Name="Chiliad Creature Equines" Inherits="BaseEquine">
     <part Name="Render" DisplayName="=creatureRegionAdjective= 斑马" Tile="Creatures/chiliad-zebra.png"/>
-    <part Name="Description" Short="=pronouns.possessive= 条纹侧身吸引并迷惑视线。"/>    
+    <part Name="Description" Short="=pronouns.Possessive= striped flanks draw and then dizzy the eye."/>    
     <inventoryobject Blueprint="Chiliad Creature Hoof" Number="4"/>
     <builder Name="CreatureRegionSpice" DetailColor="y"/>
     <mixin Name="BaseChiliadCreatureStats"/>
   </object>
   <object Name="Chiliad Creature Farmers" Inherits="BaseFarmer">
     <part Name="Render" DisplayName="=creatureRegionAdjective= 农夫" Tile="Creatures/chiliad-farmer.png"/>    
-    <part Name="Description" Short="=pronouns.Possessive= 的眼睛穿透了紧实的土壤，=pronouns.subjective= 搓着指间的粘土。"/>    
-    <removepart Name="RandomTile" />
+    <part Name="Description" Short="=pronouns.Possessive= eyes pierce the packed soil and =pronouns.subjective= =verb:rub:afterpronoun= clay between =pronouns.possessive= fingers."/>
+    <removepart Name="RandomTile"/>
     <stat Name="Level" Value="18"/>
     <mixin Name="BaseChiliadCreatureStats"/>
   </object>
   <object Name="Chiliad Creature Wardens" Inherits="NPC">
     <part Name="Render" DisplayName="=creatureRegionAdjective= 监护者" Tile="Creatures/chiliad-warden.png"/>
     <part Name="Brain" Factions="Wardens-100"/>
-    <part Name="Description" Short="紧绷的手臂握住了=pronouns.possessive=武器，=pronouns.subjective=带着审慎的怀疑盯着你。"/>    
+    <part Name="Description" Short="Tense arms brace =pronouns.possessive= weapon and =pronouns.subjective= =verb:hold:afterpronoun= your gaze with measured doubt."/>    
     <mixin Name="BaseChiliadCreatureStats"/>
   </object>
   <object Name="Chiliad Creature Fish" Inherits="BaseFish">
     <part Name="Render" DisplayName="=creatureRegionAdjective= 鱼" Tile="Creatures/chiliad-fish.png"/>
-    <part Name="Description" Short="绚丽的柔软鳍带从其身体延伸而出，一只好奇的眼睛从其扁平的头部探出。"/>    
+    <part Name="Description" Short="Gorgeous soft ray ribbons off =pronouns.possessive= body and a curious eye peers out =pronouns.possessive= flat head."/>    
     <inventoryobject Blueprint="Chiliad Creature Bite" Number="1"/>
     <mixin Name="BaseChiliadCreatureStats"/>
   </object>
@@ -2476,7 +2479,7 @@
   </object>
   <object Name="Chiliad Creature Goatfolk" Inherits="Goatfolk">
     <part Name="Render" DisplayName="山羊族 =creatureRegionNoun=" Tile="Creatures/chiliad-goatfolk.png"/>
-    <part Name="Description" Short="=pronouns.Subjective= 站立着，蹄子呈弓形，骄傲地对着天空咩咩叫。"/>
+    <part Name="Description" Short="=pronouns.Subjective= =verb:stand:afterpronoun= with a hooved arch and baaaaas proudly at the sky."/>
     <xtagTextFragments PoeticFeatures="muscled chest, spiral horns, deep grumble"/>
     <mixin Name="BaseChiliadCreatureStats"/>
   </object>
@@ -2506,7 +2509,7 @@
   </object>
   <object Name="Chiliad Creature Hindren" Inherits="BaseHindren">
     <part Name="Render" DisplayName="欣德伦 =creatureRegionNoun=" Tile="Creatures/chiliad-hindren.png"/>
-    <part Name="Description" Short="一束卷曲的毛发从矮小的犄角上垂下，其后臀比大多数动物都显得更为松弛。"/>
+    <part Name="Description" Short="A corsage of curls spill over dwarf horns, and there is less tension about =pronouns.possessive= hind hips than most animals."/>
     <part Name="Brain" Factions="Hindren-100"/>
     <builder Name="CreatureRegionSpice" TileColor="g,G,b,B,W,m,M,r,R,y,Y,K" DetailColor="w"/>
     <mixin Name="BaseChiliadCreatureStats"/>
@@ -2520,7 +2523,7 @@
   </object>
   <object Name="Chiliad Creature Issachari" Inherits="BaseIssachari">
     <part Name="Render" DisplayName="伊萨查里 =creatureRegionNoun=" Tile="Creatures/chiliad-issachari.png"/>
-    <part Name="Description" Short=""/>    
+    <part Name="Description" Short="Wind presses a fringed thawb and neckdress against a human form. The fabric is embroidered to rhyme with patterns in the salt and star-cut sky."/>    
     <mixin Name="BaseChiliadCreatureStats"/>
   </object>
   <object Name="Chiliad Creature Mechanimists" Inherits="Mechanimist">
@@ -2541,19 +2544,19 @@
   </object>
   <object Name="Chiliad Creature Mopango" Inherits="BaseMopango">
     <part Name="Render" DisplayName="莫庞果 =creatureRegionNoun=" Tile="Creatures/chiliad-mopango.png"/>    
-    <part Name="Description" Short="其轭状鳞片上散发出柔和的内光，环绕在其颈间的褶皱领周围。"/>
+    <part Name="Description" Short="A soft inner light radiates off =pronouns.possessive= yoked scales and enhalos the ruffled pelerine abouth =pronouns.possessive= neck."/>
     <part Name="Brain" Factions="Mopango-100"/>
     <mixin Name="BaseChiliadCreatureStats"/>
   </object>
   <object Name="Chiliad Creature Strangers" Inherits="BaseHumanoid">
     <part Name="Render" DisplayName="神秘的=creatureRegionNoun=" Tile="Creatures/chiliad-stranger.png"/>
     <part Name="Brain" Factions="Strangers-100"/>
-    <part Name="Description" Short="她那条在被遗忘的河岸边编织而成的流苏斗篷，衬托出她那谨慎沉静的纤细身姿。"/>    
+    <part Name="Description" Short="=pronouns.Possessive= tassled cape (braided on the banks of a forgotten river) accents a slim posture of heedful calm."/>    
     <mixin Name="BaseChiliadCreatureStats"/>
   </object>
   <object Name="Chiliad Creature Naphtaali" Inherits="BaseNaphtaali">
     <part Name="Render" DisplayName="拿夫塔利 =creatureRegionNoun=" Tile="Creatures/chiliad-naphtaali.png"/>
-    <part Name="Description" Short="=pronouns.possessive= 的苔藓毛皮浓密（甚至结出了果实），明亮的青色眼睛透过=pronouns.possessive= 的米纳扬面具向外窥视。"/>    
+    <part Name="Description" Short="=pronouns.Possessive= moss fur grows thick (and even fruits), and bright cyan eyes peer out the selfsame mask of =pronouns.possessive= minyan."/>    
     <mixin Name="BaseChiliadCreatureStats"/>
   </object>
   <object Name="Chiliad Creature Oozes" Inherits="BaseOoze">
@@ -2564,7 +2567,7 @@
   </object>
   <object Name="Chiliad Creature Templar" Inherits="Templar">
     <part Name="Render" DisplayName="圣殿骑士 =creatureRegionNoun=" Tile="Creatures/chiliad-templar.png"/>
-    <part Name="Description" Short="历经千年的盔甲在骑士身上承载着岁月的重量，磨损的菱形标记在其头盔上持续散发着坚定的超自然力量。"/>    
+    <part Name="Description" Short="Mail banged and brushed in a chiliad of coats weighs the knight down with the burden of kinetic years. The faded rhombus sigiling =pronouns.possessive= helm continues with its insistent metaphysic."/>    
     <mixin Name="BaseChiliadCreatureStats"/>
   </object>
   <object Name="Chiliad Creature Roots" Inherits="MutatedRoots">
@@ -2602,7 +2605,7 @@
   </object>
   <object Name="Chiliad Creature Swine" Inherits="BaseSwine">
     <part Name="Render" DisplayName="=creatureRegionAdjective= 猪" Tile="Creatures/chiliad-swine.png"/>
-    <part Name="Description" Short="村庄生活使这头猪变得歪斜，臀部的毛发也磨掉了。此外，它的前蹄因使用金属工具而外展。"/>    
+    <part Name="Description" Short="Village life has tilted the pig and worn the hair off =pronouns.possessive= ham ass. As well, =pronouns.possessive= forehooves splay in the signature of metal tool use."/>    
     <inventoryobject Blueprint="Chiliad Creature Bite" Number="1"/>
     <mixin Name="BaseChiliadCreatureStats"/>
   </object>
@@ -2614,7 +2617,7 @@
   </object>
   <object Name="Chiliad Creature Trees" Inherits="SapientMutatedTree">
     <part Name="Render" DisplayName="阴影 =creatureRegionNoun=" Tile="Creatures/chiliad-tree.png"/>
-    <part Name="Description" Short="=pronouns.Subjective= 已经被精心修剪并湿润，=pronouns.possessive= 盆以月啸的风格重新上釉。"/>    
+    <part Name="Description" Short="=pronouns.Subjective= =verb:have:afterpronoun= been trimmed and moistened with doting care, =pronouns.possessive= pot reglazed in the fashion of Yawningmoon."/>    
     <inventoryobject Blueprint="Chiliad Creature Bark" Number="2"/>
     <stat Name="Hitpoints" Value="200"/>
     <builder Name="CreatureRegionSpice" TileColor="G,b,B,w,W,m,M,r,R,y,Y,K" DetailColor="g"/>
@@ -2648,7 +2651,7 @@
   <object Name="Chiliad Creature Water" Inherits="NPC">
     <part Name="Render" DisplayName="=creatureRegionAdjective= 领主" Tile="Creatures/chiliad-water-baron.png"/>
     <part Name="Brain" Factions="Water-100"/>
-    <part Name="Description" Short="在浮力阶层中，坐姿的艺术被赋予了量子色动力学的微妙之处。在这里，=pronouns.subjective= 坐在=pronouns.possessive= 轿式行走机上，在青春的领域里畅饮。"/>    
+    <part Name="Description" Short="The art of sitting is practiced with the nuance of quantum chromodynamics, among the buoyant caste. Here =pronouns.subjective= =verb:perch:afterpronoun= on =pronouns.possessive= palanquin walker and =verb:drink:afterpronoun= in the nubile realm."/>    
     <mixin Name="BaseChiliadCreatureStats"/>
   </object>
   <object Name="Chiliad Creature Winged Mammals" Inherits="BaseBat">
@@ -2659,13 +2662,13 @@
   </object>
   <object Name="Chiliad Creature Worms" Inherits="BaseWorm">
     <part Name="Render" DisplayName="=creatureRegionAdjective= 蠕虫" Tile="Creatures/chiliad-worm.png"/>
-    <part Name="Description" Short="粗鲁的时光已经将=pronouns.possessive=体节挤压至最瘦的状态，并将其各段融合成一体。一缕溶解的唾液将其口前叶与地面相连。"/>    
+    <part Name="Description" Short="Rude-meaning time has rolled =pronouns.possessive= annuli to their skinniest form and smushed their segments into one. A rope of dissolving spittle joins =pronouns.possessive= peristomium with the ground."/>    
     <inventoryobject Blueprint="Chiliad Creature Bands" Number="1"/>
     <mixin Name="BaseChiliadCreatureStats"/>
   </object>
   <object Name="Chiliad Creature Seekers" Inherits="BaseSightless">
     <part Name="Render" DisplayName="=creatureRegionNoun= 无目之道" Tile="Creatures/chiliad-seeker.png"/>
-    <part Name="Description" Short="晚期寻道者时尚的侧向丝带在湿润的空气中旋转，=pronouns.subjective= 无声地哼了一声，拂去了=pronouns.possessive=兜帽上的尘土。"/>    
+    <part Name="Description" Short="The sidewise ribbons of late Seeker fashion twirl in the moistening air, and with a gestureless hmmph, =pronouns.subjective= =verb:brush:afterpronoun= the dirt from =pronouns.possessive= cowl."/>    
     <mixin Name="BaseChiliadCreatureStats"/>
   </object>
   <object Name="Chiliad Creature Pariahs" Inherits="Pariah">

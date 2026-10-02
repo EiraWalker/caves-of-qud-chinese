@@ -1,0 +1,49 @@
+{
+  "sha256": "75cff5ec17ad300dcfa5fb55d2a6e4fd3807641f241da5a5b07136d957027f9e",
+  "unity_version": "6000.0.77f1",
+  "object_count": 4379,
+  "changed_object_ids": [
+    37,
+    266,
+    2616
+  ],
+  "unchanged_objects": 4376,
+  "font_characters": 7340,
+  "font_chinese_characters": 6989,
+  "original_characters_missing": [],
+  "atlas_size": 16777216,
+  "atlas_stream": {
+    "offset": 0,
+    "size": 0,
+    "path": ""
+  },
+  "material_edits": {
+    "_GradientScale": {
+      "before": 11.0,
+      "after": 6.0
+    },
+    "_TextureHeight": {
+      "before": 2048.0,
+      "after": 4096.0
+    },
+    "_TextureWidth": {
+      "before": 2048.0,
+      "after": 4096.0
+    }
+  },
+  "corpus_chinese_unique": 3270,
+  "corpus_missing_chinese_count": 10,
+  "corpus_missing_chinese": "匍呣哒洢祂祇舭鴷鵕鸉",
+  "corpus_missing_codepoints": [
+    "U+530D",
+    "U+5463",
+    "U+54D2",
+    "U+6D22",
+    "U+7942",
+    "U+7947",
+    "U+822D",
+    "U+9D37",
+    "U+9D55",
+    "U+9E09"
+  ]
+}

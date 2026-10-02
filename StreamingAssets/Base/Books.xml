@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <books>
   <book ID="Skybear" Title="{{W|天熊之歌}}">
     <page>
@@ -58,24 +58,30 @@
 [[C.]] 控制论的风险是什么？
 [[D.]] 如何安装控制论植入物？
 [[E.]]再见。</page>
-    <page>
-你是对的，贵族。首先，确保有积分留在你的控制论信用楔子上。安装一个控制论植入需要一个学分。
+    <page>You are correct, Aristocrat. Firstly, make sure there are credits
+remaining on your cybernetics credit wedge. The installation of a
+cybernetic implant costs one credit.
 
-然后，你必须把自己推到适当的角落。制作确保肢体架装载了所需的控制论肢体，或者目镜模块甲板
-装载有所需的目镜模块，或者数据索引器模块甲板加载了所需的数据索引器模块。
+Then, you must propel yourself over to the appropriate nook. Make
+sure the limb rack is loaded with the desired cybernetic limb, or
+the ocular module deck is loaded with the desired ocular module,
+or the data indexer module deck is loaded with the desired data
+indexer module.
 
-[[按任意键继续]]
-~最后，与控制论终端连接。那么你就会已经成功地做了你想做的事情。
+[[PRESS ANY KEY TO CONTINUE]]
+~Finally, interface with the cybernetics terminal. Then you will
+have succeeded in doing the thing you wished to do.
 
-问一个问题。
-[[A.]] 什么是控制论植入物？
-[[B.]] 控制论有什么好处？
-[[C.]] 控制论的风险是什么？
-[[D.]] 如何安装控制论植入物？
-[[E.]]再见。</page>
+Ask a question.
+
+[[A.]] What are cybernetic implants?
+[[B.]] What are the benefits of cybernetics?
+[[C.]] What are the risks of cybernetics?
+[[D.]] How do I install a cybernetic implant?
+[[E.]] Goodbye.</page>
   </book>
   <book ID="AlchemistMutterings" Title="炼金术士的嘀咕">
-    <page>气体太雾了。
+<page>气体太雾了。
 玻璃太脆弱了。
 固体太坚硬。
 液晶不是液体！
@@ -101,7 +107,7 @@
     <page>新神父，你骄傲吗？</page>
     <page>新爸爸！</page>
   </book>
-  <book ID="Preacher1" Title="传教士1">
+  <book ID="Preacher1" Title="Preacher1">
     <page>孩子们，让我们为我们银色父亲的主权而欢欣鼓舞。</page>
     <page>赞美谢希纳，教父中第一位照亮智慧之路的人。</page>
     <page>赞美大衮，这位言辞优美的人，对铬说实话。</page>
@@ -111,7 +117,7 @@
     <page>赞美上面的瑞谢夫，他净化了我们的水银。</page>
     <page>卡萨弗塞斯是有福的，她是唤醒他们心灵的缪斯。</page>
   </book>
-  <book ID="Preacher2" Title="传教士2">
+  <book ID="Preacher2" Title="Preacher2">
     <page>孩子们，你们听说过有福的贝蒂尔吗？</page>
     <page>它们的诞生是为了满足我们的愿望。</page>
     <page>哦，赞美我们的银色父亲！一切众生中最善良、最智慧的。</page>
@@ -124,7 +130,7 @@
     <page>因为这是一个极其邪恶的要求。</page>
     <page>忽略它，并寻求牧师的指导！</page>
   </book>
-  <book ID="Preacher3" Title="传教士3">
+  <book ID="Preacher3" Title="Preacher3">
     <page>今天，我将讲述神圣结合的故事。</page>
     <page>噢，神圣的联盟！愿你的名受颂赞。</page>
     <page>我们的银色父亲，带着惰性的心在蔚蓝的虚空中漫游，</page>
@@ -136,7 +142,7 @@
     <page>通过她赤裸的子宫。</page>
     <page>高兴吧！加盟已经结束！他们的结合圆满了！</page>
   </book>
-  <book ID="Preacher4" Title="传教士4">
+  <book ID="Preacher4" Title="Preacher4">
     <page>今天，孩子们，我要讲的是启迪。</page>
     <page>哦，神圣的行为！冶金界有福了！</page>
     <page>我们的银色父亲，硬化了我们的等离子母亲，</page>
@@ -179,173 +185,173 @@
     <page>来吧。和朋友在一起。</page>
     <page>简单平静地分享你的生活。</page>
   </book>
-  <book ID="Quotes" Title="引号">
-    <page>
+    <book ID="Quotes" Title="引号">
+      <page>
 "将其绑在太阳穴上。别再嚷嚷了，你会没事的。
 可能会出现什么问题？"
 [[-Argyve, Tinker]]
       </page>
-    <page>
+      <page>
 "深呼吸诸神的气息，然后死去。"
 [[-Ekuemekiyyen inscription]]
       </page>
-    <page>
+      <page>
 "黑魔鬼从繁星点点的桅杆上荡来荡去，
 在打哈欠的月亮之下。"
 [[-Fuming God Sea shanty]]
       </page>
-    <page>
+      <page>
 "今天，我们离开冰冻的巢穴，穿越荒凉的阿尔萨克斯，并进行间谍活动
 对于那些镀铬的倒山。"
 [[-Consul Ijulii's farewell]]
       </page>
-    <page>
+      <page>
 "谁居住在南茹巨大的沙漠永久业权中？聚集的人。
 奥德鲁姆的领地？跪着的人。
 Yyp 的丛林？气喘吁吁的人。
 那么古德的锈洞呢？尖叫的男人们。"
 [[-Dromad travelogue]]
       </page>
-    <page>
+      <page>
 "生活和喝酒，朋友。现在把你的水给我。"
 [[-Courteous bandit]]
       </page>
-    <page>
+      <page>
 "月亮和太阳；智慧和意志。"
 [[-Watervine farmer's prayer]]
       </page>
-    <page>
+      <page>
 "赞美归于至高者，你的银色父亲，我。"
 [[-Shekhinah]]
       </page>
-    <page>
+      <page>
 "看看我的财富，你们富人，绝望吧！ （但不要碰）"
 [[-Hegelrut]]
       </page>
-    <page>
+      <page>
 "是的，我知道电路思维的秘密。这是一个燃烧的
 奇迹，心灵感应。"
 [[-Seeker of the Sightless Way]]
       </page>
-    <page>
+      <page>
 "它燃烧了！"
 [[-Argyve's apprentice]]
       </page>
-    <page>
+      <page>
 "用碳化钨拳头尺子。"
 [[-King K4K5]]
       </page>
-    <page>
+      <page>
 "唉，我愿使你成为一位神圣的沉睡者，
 因为在梦幻的山谷中，你仍然属于我。"
 [[-Willow Shakesprig]]
       </page>
-    <page>
+      <page>
 "它就存在于我们每个人身上——我们年长的自我的影子。每个内
 男人，一只山羊。每只山羊里面都有一个人！"
 [[-Wild-eyed watervine merchant]]
       </page>
-    <page>
+      <page>
 "我们所打击的这个东西的本质是什么？还是行为本身？"
 [[-Mayor Nuntu]]
       </page>
-    <page>
+      <page>
 "穿梭于那些银色的山谷中——敏捷的冒险家的梦想！"
 [[-Elder Irudad]]
       </page>
-    <page>
+      <page>
 "不要留意每个口渴的傻瓜的故事。"
 [[-Ol' Uri]]
       </page>
-    <page>
+      <page>
 "嘎啦啦啦。"
 [[-Warden Indrix]]
       </page>
-    <page>
+      <page>
 "愿你沐浴在鲜血之中。不是你自己的血，先生。的血
 重铸。我的意思是，被回收的。愿你沐浴在鲜血之中
 回收。"
 [[-Putus squire]]
       </page>
-    <page>
+      <page>
 "愿你沐浴在被复兴者的血液中。"
 [[-Putus Templar]]
       </page>
-    <page>
+      <page>
 "那腿吸水吗？它们甚至合成细胞分裂素吗？我
 不这么认为。"
 [[-Consortium Socialite]]
       </page>
-    <page>
+      <page>
 "听到国王去世的消息后，乌图特的政治
 对手们欢呼维斯特沃特为英雄。他们很快就醒悟了。"
 [[-The Baccata Yewtarch]]
       </page>
-    <page>
+      <page>
 "我凝视过穴居人舒格鲁斯的一百九只眼睛。"
 [[-Barathrum the Old]]
       </page>
-    <page>
+      <page>
 "愿大地震动，但六日高跷永不倒塌！"
 [[-Song of Hebronze]]
       </page>
-    <page>
+      <page>
 "哦，智者们！保持明智的信心，
 哪里有女仆靠近，你就闭上眼睛。"
 [[-Willow Shakesprig]]
       </page>
-    <page>
+      <page>
 "不，你不应该渴望这些东西，因为我们很饥饿
 恶魔并常常屈服于疯狂的愤怒。"
 [[-The Madpole]]
       </page>
-    <page>
+      <page>
 "建造一个小屋并不是一笔微不足道的费用。我几乎一天的时间都花在了
 砍伐和堆放木材，尽管你对小屋感到惊叹
 就其本身而言，你可能会对产生它的劳动感到皱眉。"
 [[-The Musker]]
       </page>
-    <page>
+      <page>
 "在所有这些事情上，你可以和我们一起参与，但要注意，为了我们的
 都是闲散的生活，你可能很快就会厌倦它们。"
 [[-The Gnu]]
       </page>
-    <page>
+      <page>
 "克兰克对你吹气。"
 [[-Pax Klanq]]
       </page>
-    <page>
+      <page>
 "尽情享用山羊心吧！"
 [[-Mamon Souldrinker]]
       </page>
-    <page>
+      <page>
 "现在埃洛哈特和贝拉欣德躺在拉的田野里
 因为他们的田地饿了，把农夫生吃掉了。"
 [[-Bey Lah nursery rhyme]]
       </page>
-    <page>
+      <page>
 "你的价值由你决定！你操纵它并塑造它 
 你的言行！现在你会沉溺在你的卑微限制中吗？
 或者你会用你拥有的一切来面对我吗？"
 [[-Carbide Chef Agate Severance Star]]
-      </page>
-    <page>
+      </page>      
+      <page>
 "我最热切的希望是有一天我不再被称为安戈欣德，
 村里的书呆子……但是安戈欣德，大侦探。"
 [[-Angohind]]
       </page>
-    <page>
+			<page>
 "树木在死者身边生长得最好。"
 [[-Daughter Erinna]]
       </page>
-  </book>
+    </book>
   <book ID="CrimeandPunishment" Title="{{W|罪与罚}}">
     <page>
 {{emote|*墨水褪色到无法辨认*}}
   </page>
   </book>
-  <book ID="MimicandMadpole" Title="{{W|模仿者和疯子}}">
-    <page>
+    <book ID="MimicandMadpole" Title="{{W|模仿者和疯子}}">
+      <page>
 一个拟态生物从贝塞斯达苏萨寒冷、没有星星的地方爬出来，在草原上伸展身体，在正午的阳光下温暖它粘
 稠的鳞片。温暖的微风吹过荒凉的荒原，没过多久，拟态生物就陷入了慵懒的睡眠中。几个小时的安宁睡眠
 过去了，直到灌木丛的沙沙声把它吵醒。它睁开眼睛，看到三只叉角牛羚正在草原上吃草。当它们悠闲地咀
@@ -357,7 +363,7 @@ Yyp 的丛林？气喘吁吁的人。
 光熄灭之前，它把迟钝的思想交给了诺德的土地。直到一天早晨，当马羚懒洋洋地咀嚼着早露所嫩化的青草
 时，拟态动物确实已经厌倦了这些野兽无所事事的习惯，沿着潺潺小溪偷偷溜进了一片阴暗的灌木丛中。
       </page>
-    <page>
+      <page>
 在这一天剩下的时间里，拟态生物一直追随着小溪蜿蜒流入树林。当最后一丝蜡光开始从空气中渗出时，模
 仿者注意到前方潺潺溪流中间有几堆奇特的泥巴木棍和圆木堆。一只麝鼠，它的棕色皮毛浸湿了，压在它小
 小的身体上，在其中一堆的底部排列着树枝。模仿者立即明白了；这些是马斯克的小屋，每一处都是用一根
@@ -370,7 +376,7 @@ Yyp 的丛林？气喘吁吁的人。
 小溪的。每天黎明时分，他们都会重新开始，直到日落很久之后，模仿者再也无法在黑暗的灌木丛中发现麝
 香者时，他们才停下来。直到有一天早上，当马斯克用牙齿咬住一根腐烂的木头时，模仿者，
       </page>
-    <page>
+      <page>
 事实上，麝鼠已经厌倦了它所承担的劳动，沿着潺潺的小溪，从阴暗的树林里偷偷溜走，进入了一个布满粗糙
 的盐茎根的山谷。
 拟态生物再次沿着溪流穿过山麓的空心弯道，直到它的咸水流入一个巨大的湖泊。在漂白的海岸上，拟态者凝
@@ -380,7 +386,7 @@ Yyp 的丛林？气喘吁吁的人。
 但模仿者还是潜入了湖中。当它在水中溅起水花时，疯子们感觉到附近有活生生的、成熟的肉体，冲向模仿者
 ，把它撕成碎片。      
 </page>
-  </book>
+    </book>
   <book ID="AphorismsAboutBirds" Title="{{W|关于鸟类的格言}}">
     <page>
 鸟儿不能吃没有种下的稻米。
@@ -419,10 +425,10 @@ Yyp 的丛林？气喘吁吁的人。
 在纺锤顶上，债务人和鸟类去的地方。
 </page>
   </book>
-  <book ID="DarkCalculus" Title="{{W|关于黑暗演算的起源和性质}}" Format="Auto" Margins="1,2,2,2">
-    <page>{{C|Editor's note:this excerpt is published with permission from the notes of Barathrum the Old.}}
+<book ID="DarkCalculus" Title="{{W|关于黑暗演算的起源和性质}}" Format="Auto" Margins="1,2,2,2">
+  <page>{{C|Editor's note:this excerpt is published with permission from the notes of Barathrum the Old.}}
 
-{{y|算术记录中有证据表明，对形式系统的研究在很久以前就达到了有害的顶点。 像罗素这样的数学家所取得的进步， G&#148;删除, Eisencruft, Atufu, Wheatgrass, 和 System Star有助于理解不可确定性、尖锐的正则主义和深渊主义等概念。在达到这种最低程度的数学成熟度后，配备了复杂的语法，研究人员开始尝试表达能力的极限。他们设计了大胆的研究计划，并飞奔到数学的树林中，而不知道那里存在的危险。}}
+{{y|算术记录中有证据表明，对形式系统的研究在很久以前就达到了有害的顶点。 像罗素这样的数学家所取得的进步， G删除, Eisencruft, Atufu, Wheatgrass, 和 System Star有助于理解不可确定性、尖锐的正则主义和深渊主义等概念。在达到这种最低程度的数学成熟度后，配备了复杂的语法，研究人员开始尝试表达能力的极限。他们设计了大胆的研究计划，并飞奔到数学的树林中，而不知道那里存在的危险。}}
 
 由于连续几代人的努力使合资企业变得模糊，因此记录甚至比平时更稀缺。尽我所能，在调查过程中的某个时刻，来自名为 “冲天炉” 的数学神学院的理论家提出了关于形式语义脆弱性的猜想。这个猜想成熟为一个更广泛的理论，由此产生了一个正式的系统，称为半影演算。在混淆之前的少数文本片段中，有人指出，在半影演算中，某些定理是可证明的，但在证明完成后就被伪造了。尽管这个结果与我在自己的调查中遇到的思想体系不一致，但我几乎没有理由怀疑作者的真实性。然而，这肯定是一个特殊的属性。
 
@@ -432,9 +438,10 @@ Yyp 的丛林？气喘吁吁的人。
 
 特别地，对禁令的支持是一致的。值得注意的是，即使是航天员Ptoh也同意放弃对其暗淡恒星范围内的禁忌结石的调查。尽管其同意的方式并非没有争议; 为了宣布其协议，它在一小块空间中颠倒了夸克的颜色电荷，导致研究站自身崩溃。尽管如此，Ptoh的同意证明了存在焦虑的程度，这可能导致对半影微积分的调查变得黑暗。
   </page>
-  </book>
+
+</book>
   <book ID="TornGraphPaper" Title="{{W|一张撕破的方格纸}}" Format="Auto" Margins="1,2,2,2">
-    <page>
+  <page>
 
 
 
@@ -475,7 +482,7 @@ Yyp 的丛林？气喘吁吁的人。
 另一方面，圣殿骑士是极其有序的暴力行为的参与者。他们的暴行已被编入正统。他们的意识形态结构是反熵的，但具有破坏性和令人憎恶。他们试图建立一个严格的等级社会，底层是奴隶阶级。通过像在被回收的血液中洗礼这样的仪式，他们在他们的臣民中灌输特权。我们其余的人只能用武力来满足。
     </page>
   </book>
-  <book ID="EntropytoHierarchy2" Title="{{W|从熵到层次，第二版}}" Format="Auto" Margins="1,2,2,2">
+	<book ID="EntropytoHierarchy2" Title="{{W|From Entropy to Hierarchy, 2nd Edition}}" Format="Auto" Margins="1,2,2,2">
     <page>[[~ ~ ~ by {{m|Q Girl}} ~ ~ ~]]
 
 [[{{C|配方和Animus}}]]
@@ -493,10 +500,12 @@ Yyp 的丛林？气喘吁吁的人。
 熵/等级二分法的两极代表了两个群体:Gyre wights和Putus Templar。Gyre wights的精神是混乱的自我放纵，狂躁的加速 (一种渴望看到事物更快崩溃的渴望) 以及对历史骰子的迷恋。他们像激动的气体一样滚滚，像其他人一样经常互相撞击，并从他们所破坏的社区中剥离一些秩序。他们是无谓暴力的代表。
 
 另一方面，圣殿骑士是极其有序的暴力行为的参与者。他们的暴行已被编入正统。他们的意识形态结构是反熵的，但具有破坏性和令人憎恶。他们试图建立一个严格的等级社会，底层是奴隶阶级。通过像在被回收的血液中洗礼这样的仪式，他们在他们的臣民中灌输特权。我们其余的人只能用武力来满足。</page>
-    <page>[[{{C|关于回旋的勘误表}}]]
+
+<page>[[{{C|关于回旋的勘误表}}]]
 与螺丝分类朋友的有益讨论改变了我的视野。他们传达了彩虹木的梦想，并通过非常生动的隐喻提出了一个令人信服的论点，即死亡是生命的阶梯，这在其他后果中软化了我对Gyre wight项目的立场，如果这样的事情可以被命名的话。我现在在哪里？我不知道.但是我的两极模式现在感觉过度和简化。我将此版本的原始语言留作考虑。
 </page>
   </book>
+
   <book ID="DisquisitionOnTheMaladyOfTheMimic" Title="{{W|关于模仿的弊病的研究}}" Format="Auto" Margins="1,2,2,2">
     <page>[[~ ~ ~ by {{m|Q Girl}} ~ ~ ~]]
 
@@ -511,134 +520,135 @@ Yyp 的丛林？气喘吁吁的人。
 有一个关于模仿者的寓言，他寻求归属但从未归属，他的野心最终导致了可怕的命运。它的道德起着意识形态的作用:使我们不属于我们已经拥有的地方。所以现在让我对你说:属于，朋友。我们快乐地等你。
     </page>
   </book>
+
   <book ID="Diary" Title="{{W|被一股海带束缚的卷轴}}" Format="Auto" Margins="1,2,2,2">
     <page>
 [[{{w|9th of Kisu Ux}}]]
 
-我来自西方。我的父母把我卖给了奴隶，尽管这种做法早在几年前就在珀斯被正式废除了。小时候，我在歌声岸边的礁石上咬牙切齿，用许多赞美诗哄苍白的大海入睡，这样她就可以毫发无损地把我们的水手从黑楼梯上送回。即使在那时，旋律如何在我的头骨中打动。我出生时没有名字，但水手们叫我卡图。
+I come from the west. My parents sold me into slavery as a babe, though the practice had been formally abolished in Perth years earlier. As a boy I cut my teeth on the reefs of the Shore of Songs, and lulled the Pale Sea to sleep with many a hymn, that she might return our sailors from the Black Stair unscathed. How the melodies whisked inside my skull even then. I was given no name at birth, but the sailors called me Catu.
 
-五年和十年后，我逃跑了。在Ettinspine上，我和一个使我成年的eremite在一起。我学会了打猎，笑，和梦想。随着时间的过去，我终于知道了这座自由的城市和我的同类。我从石质的角落里走了出来，跋涉到他们的高门口，在那里定居，虽然我更喜欢和垂钓者和其他低矮的人一起吃。
+At five and ten years I ran away. On Ettinspine I roosted with an eremite who ushered me into manhood. I learned to hunt, and laugh, and dream. In time I came to know of the Free City and the ingress afforded my kind. I shoved off from my stony nook, and trekked to their high gate, and settled there, though I preferred to sup with the anglers and other low folk.
 
-在城墙下阳光普照的游泳池里，自由的先行者首先注意到我。我仍然记得，他从他看着的地方倾斜的脖子预示着我的动作。我从浴缸里站起来，可耻地垫在我废弃的背心上，但停了下来。我从那个距离看到他，他的眼睛深深地塞进他的圆顶，他的连衣裙像雕像一样惰性，我不再感到羞耻。
+In a sun-warmed pool under the rampart the Free Seer first noticed me. The slant of his neck from where he watched on the parapet presaged my movements, I still recall. I stood from my bath and shamefully padded to my discarded vest, but stopped. I saw him from that distance, his eyes tucked deep into his shorn dome, his frock as inert as a statue's, and I felt no more shame.
 
-在他的指导下，我在他的法庭上脱颖而出。当他与奥德鲁姆的tuyuldars一起对待时，我站在他的身边，因为他密谋反对南部的永久地。当一个叛徒将毒药滑入他的杯子时，我将其从他手中砸碎，并使quisling的思想崩溃。那天晚上，在甲虫月亮的时刻，他向我介绍了一个集结的头脑的欢笑。我们与其他canters一起加入，他给我起名叫mirsister，并把我抚养到他的仪仗队。我将在不到一年的时间内被剥夺。
+Under his tutelage I rose to prominence in his court. I stood by his side as he treated with the tuyuldars of Odrum, as he plotted against the southern freeholds. When a traitorous canter slipped poison into his cup, I smashed it from his hands and sundered the quisling's mind. That night, in the hour of the Beetle Moon, he introduced me to the mirth of an assembled mind. Together with the other canters we Joined, and he named me Mirthful, and raised me unto his honor guard. I would be dispossessed of it in under a year.
 
-但是我现在必须暂停。斜面响亮，长者接近。我发誓要结束我的故事，如果我仍然呼吸，如果我是自由的。
+But I must pause now. The Cant loudens, and the Elder nears. I vow to conclude my story if I still draw breath, and if I am free.
 
 
 [[{{w|16th of Kisu Ux}}]]
 
-现在是黄昏。我坐在Svy河岸上，但没有火温暖我的骨头。画溺月兽的风险太大，任何思想的聚集肯定会引起长者的注意。相反，我用拇指上点燃的火焰写作。
+It is dusk. I sit on the bank of the River Svy, but no fire warms my bones. The risk of drawing moon-doting beasts is too great, and any aggregation of minds is sure to attract the attention of the Elder. Instead, I write by a flame kindled on my thumb.
 
-我在自由预见者的大厅里被命名为欢乐。没有荣誉比其他人更高。几个月来，我和我的蒙面同胞在大厅下训练，我们的粘土蓄水池储存了淡水，这些淡水后来困扰着我的梦想。春天，钓手国王寄来一封信。他寻求与自由预言者达成一项条约，并邀请我们参加由多里亚的图尤尔达尔仲裁的伊本鲁德家门口的中立委员会。经过大量准备，我们出发了，将草图划过了虹膜碗，划到那遥远的苔原的霜冻海岸。
+I left off at being named Mirthful in the Hall of the Free Seer. No honor is higher for a canter of Oth. For months I trained with my masked compatriots beneath the Hall, where our clay cisterns stored the freshwater that would later haunt my dreams. In the spring a letter arrived from the Angler King. He sought a treaty with the Free Seer and invited us to a neutral council on the doorstep of Ibunudr, arbitrated by the tuyuldar of Doria. After much preparation we set out, rowing our sketties beyond the Bowl of Iris and to the frosty shores of that far tundra.
 
-在旅途中，自由的Seer的性情恶化了。他退出了欢乐的顾问，甚至是我自己的顾问，独自在帐篷里度过了寒冬跋涉的大部分时间。起初，我将他的情绪归因于我们外交制高点的脆弱性，但我很快就学会了真正的策略。
+Over the course of the journey the Free Seer's disposition soured. He withdrew from the counsel of the Mirthful, even my own, and spent the better part of the wintry trek alone in his tent. At first I attributed his mood to the fragility of our diplomatic high ground, but I soon learned the true tack.
 
-夏至那天，我们到达了伊布努德的营地。Athenreach和Doria的双旗在风中摇摇头，eustace-sutta的赞美诗也在风中飘扬。我记得对他们牧师的喉咙低吟微笑。当我们从一个小丘上研究营地时，当自由的先知漫步到我身边时，我看到了悬山上的宝石，垂钓者国王的妻子尼斯拉梅特，她巩固了父亲的领地和垂钓者国王的永久业态之间的和平。我看到了她，我立刻知道了我自己的背叛。自由的先知的目光是足够的认可。
+We arrived at the camp on Ibunudr on the summer solstice. The twin banners of Athenreach and Doria thrashed in the wind, and the hymns of the Eustace-Sutta carried. I remember smiling at the throaty crooning of their priests. As we studied the campground from a hillock, as the Free Seer ambled up to my side, I saw the jewel of the Hanging Hills, Nisramet, the Angler King's wife, she who cemented the peace between her father's fiefdoms and the Angler King's freehold. I saw her, and I immediately knew my own treachery. The Free Seer's gaze was acknowledgement enough.
 
 [[{{w|2nd of Tebet Ux}}]]
 
-我已经到达了Kyakukya。善良的Nuntu与我分享他的小屋，给我熏制的蘑菇，并要求任何回报。我在他的书桌上写下这些话，尽管他自己渴望知识，但他让我记录我的过去。
+I've arrived at Kyakukya. Kind Nuntu shares his hut with me, offers me smoked mushroom, and asks nothing in return. I write these words at his desk, and though he lusts for knowledge himself, he leaves me be to chronicle my past.
 
-回到Oth的运动是严峻的。我等待着我的命运在自由的预言家的手中，虽然我期待着被给予的尊严首先回到大厅和我的家。我没有得到这么多。一个令人沮丧的夜晚，在甲虫的月亮下，我的蒙面兄弟在帐篷里搭讪。令我困惑的是，死神已经来了。自由预言者是如何获得樱桃的？他是在Ibunudr为他们讨价还价，还是一直拥有他们？直到今天我还不知道。
+The campaign back toward Oth was grim. I awaited my fate at the Free Seer's hands, though I anticipated being given the dignity of first returning to the Hall and my home. I was not afforded so much. One dismal night, under the Beetle Moon, I was accosted in my tent by my masked brothers. To my bewilderment, the Stithening had come already. How had the Free Seer acquired the cherrydotters? Had he bargained for them at Ibunudr, or had he possessed them all along? To this day I do not know.
 
-我几乎不记得自己的心跳在我耳边的跳动。我昏过去了，当我第二天早上醒来时，车队已经消失了。在我脑海中吟诵之前，我的认可只持续了一会儿。我以前听说过，当然。我的一生，事实上。小时候，我在珀斯的海岸上编织了自己的旋律，这是诵经的声音。现在，虽然，就好像一个单一的，遥远的canter召唤了他的一千个亲戚，他们每个人都召唤了一千个自己的。我哭了，然后我尖叫，然后我把头发从我的头上。圣歌使我的骨头比我的意志更加生动。它敦促东部和南部。东部和南部。东部和南部。朝昆德方向。
+I remember little of the Stithening outside the beating of my own heart high in my ears. I passed out, and when I awoke next morning, the cavalcade had vanished. Only a moment did my recognition last before the chanting in my head took hold. I had heard it before, of course. All my life, in fact. It was the chanting that I weaved my melodies around on the shores of Perth as a small boy. Now, though, it was as if a single, distant canter had summoned a thousand of his kin, and they each summoned a thousand of their own. I wept, then I screamed, then I tore the hair from my head. The chant animated my bones more surely than my volition ever had. East and south, it urged. East and south. East and south. Toward Qud.
 
-我对去大盐沙漠的航行的回忆是破碎的，断断续续的。我一天比一天病得更重，但是圣歌的声音越来越大，因此加快了迫使我的力量。一旦我到达Moghra'yi的无雨平原，我肯定会死，大概就像我的前任一样。最后，我到达了他们，在那里，一条盐搅的小河在金色的拱门下干了。拱门似乎是我的痴呆症引起的，但我记得如此生动，而且我知道这是Moghra'yi所保留的最少的秘密。
+My recollection of the voyage to the Great Salt Desert is fractured and fitful. I grew sicker by the day, but the chant grew louder, and so quickened the force that compelled me. Surely I would die once I reached the moistureless plains of Moghra'yi, presumably as had my predecessors before me. Finally, I did reach them, where a salt-churned rivulet dried under a golden arch. The arch seems a thing born of my dementia but that I recall it so vividly, and that I know it's the least of the secrets kept by Moghra'yi.
 
 
 [[{{w|24th of Tebet Ux}}]]
 
-我靠近真菌的树林及其荒谬的承诺。耳语是真的吗？一切都可以这么简单吗？我能感觉到食客的肉在我的嘴唇上的湿润，尽管记忆肯定是另一个人的。如果救恩等待着我，那么我保证接受它，无论我是否应得。不过，今晚，丛林笼罩着我。我坐在镀铬的钟楼下，水ech揉着我的皮肤。我没有强迫自己去阻止它的工作。友谊是受欢迎的。
+I edge closer to the grove of fungi and its preposterous promise. Are the whispers true? Could it be all so simple? I can feel the moistness of the Eater's flesh on my lips, though the memory is surely another's. If salvation awaits me, then I promise to take it, whether or not I deserve it. Tonight, though, the jungle shrouds me. I sit under a chrome belfry, a leech kneading at my skin. I feel no compulsion to bar its work. The companionship is welcome.
 
-再次唤醒过去。莫格拉伊。哦，dromads怎么知道!
+Now to awaken the past once more. Moghra'yi. O, how the dromads know!
 
-我是如何在大沙漠中生存下来的？我不能肯定。我要归功于我在珀斯演唱的歌曲，在Ettinspine上学到的猎鹰，以及在Oth下对我的肌肉的磨练。我航行时破碎的梦想几乎没有阐明。但是我确实记得咀嚼盐，并召唤阵风从死空气中吸走水分。
+How did I survive the Great Desert? I cannot say for sure. I owe something to the songs I sang at Perth, to the falconry I learned on Ettinspine, to the honing of my sinew under Oth. The fractured dream that was my voyage offers little elucidation. But I do remember chewing salt, and summoning gusts of wind to suck the moisture out of the dead air.
 
-在我脑海中流连忘返的所有记忆中，Moghra'yi仅占连贯的三个。首先是在神话般的Wrathchild帝国所在地Kubrisyeti的废墟上的景象。横跨雪花石膏平原的是他们最后的邪恶结构，是曼蝎子本身的倒塌肖像。我在那里安顿下来，违背我的意愿，只是出于疲惫。在恐惧和疲劳中注视着夜空，我听到了一个伟大的盐背的回声。甚至那些庞大的人也知道要避开这个地方。
+Of all the riven memories that churn in my head, Moghra'yi only accounts for a coherent three. The first is a vision of ruin at the fabled Kubrisyeti, the seat of the Wrathchild empire. Stretched across the alabaster plain were the last of their wicked structures, toppled effigies of the manscorpions themselves. I reposed there, against my will and only out of exhaustion. Fixated on the night sky in fear and fatigue, I heard the echoes of a great saltback's steps. Even those gargantuans know to avoid the place.
 
-第二个记忆是巨人的存在。人形形式的巨大骨骼散落在沙漠中。我以前听过这些说法，事实上，一些标本向北延伸到奥德鲁姆。我们或其他任何人都不知道它们的历史，但是它们的骨头提供了盐锅上唯一的阴影，因此它们逐渐成为受欢迎的景点。因此，我惊恐地发现了一个真相，一天晚上，我被塞进了三具尸体中的一具的肋骨笼中。你看，所有的尸体都有一个共同点:它们的方向。东部和南部。东部和南部。
+The second memory is the presence of the giants. Colossal skeletons in the forms of humanoids litter the desert. I had heard the accounts before, and indeed some of the specimens extend as far north as Odrum. Their history is wholly unknown to us or anyone else, but their bones provide some of the only shade on the salt pans, and so they grew to be welcome sights. So it was with horror that I discerned a truth, one night, while tucked into the rib cage of one of three cadavers in a small proximity. You see, all the carcasses shared a commonality: their orientation. East and south. East and south.
 
-第三个记忆是锈。生锈的船体和生锈的尖顶。我花了几个星期才意识到我所看到的。尽管我的童年时代到处都是小品和船只，但没有一个是这么大的。我设想了过去的样子，对我来说没有什么意义。Moghra'yi像广阔的大海，巨大的船只在海浪中荡漾。那时，他们船体上的标记和蚀刻对我没有共鸣。后来，虽然，我认出了纺锤的身影，我瞥见了它对这些海食者的重要性。
+The third memory is the rust. Rusted hulls and rusted spires. It took me weeks to realize what I beheld. For all my boyhood was rife with sketties and ships, but none were of this size. I envisioned what the past must have looked like, as little sense as it made to me. Moghra'yi as a vast sea, and monstrous vessels mounting its waves. Markings and etches on their hulls had no resonance for me then. Later, though, I recognized the figure of the Spindle, and I glimpsed the importance it held for these sea-faring Eaters.
 
-当我摇摇头倒在地上，被一个棕色皮肤的男人用刀扶正，一只发光的猫在他的脚下，我知道这是一个梦。这一定是个梦。
+When I lurched to the ground and was righted by a brown-skinned man with a knife, a glowing cat at his feet, I knew it was a dream. It must be a dream.
 
 
 [[{{w|1st of Shwut Ux}}]]
 
-我欠我的生命 =SEEKERENEMY=。在我匆忙到达真菌林时，我走错了。我游荡而活跃的头脑对一个被选中的人的存在视而不见。她接近我，开始将我包裹回折叠，但她被 = SEEKERENEMY = 拦截。我不知道他们为什么说情，但他们有我的感谢。所以他们必须有长者的愤怒。
+I owe my life to =SEEKERENEMY=. In my haste to reach the fungal grove, I misstepped. My wandering and buoyant mind blinded itself to the presence of a chosen one. She neared me, set on enveloping me back into the fold, but she was intercepted by =SEEKERENEMY=. For what purpose did they intercede I do not know, but they have my thanks. So must they have the Elder's ire.
 
-我现在来到Qud和失明之路的寻求者。在我的头骨中，诵经声混合成最终的狂喜，在其中，我加入了一个我从未理解过的聚合思维。不过，我已经为此准备好了。从多年前我第一次加入Ettinspine，到自由的先见者陪伴的欢乐仪式，我知道视力不会比盐更能指导我们。确实，总体上有狂喜，而长者是我所知道的强大的中心。但是中心仍然存在，哪里有中心，哪里就有等级制度。
+I come now to Qud and the Seekers of the Sightless Way. The chanting compounded in my skull into a final ecstasy, wherein I joined an aggregate mind the likes of which I hadn't fathomed. I was primed for it, though. From my first joining on Ettinspine all those years ago, to the Rite of Mirth chaperoned by the Free Seer, I knew that sight guides us no more than salt does. There is ecstasy in the aggregate, indeed, and the Elder is as powerful a center as I've known. But a center is it still, and where there is a center, there is a hierarchy.
 
-我的哪一段过去赋予了我看穿这个计较的智慧？这是童年时在歌曲岸边撞击海浪的记忆，后来在我在Moghra'yi的视野中回荡？是伊本德自由预言者眼中的嫉妒吗？还是仅仅因为我自己的奋斗而在大众心中产生了皱纹？我不能说，但是当其他canters吹奏他们的歌曲来削弱长者的监狱时，不知不觉地吸引了更大的思想，我逃脱了。
+Which piece of my past endowed me with the wisdom to see through the ruse? Was it the boyhood memory of crashing waves on the Shore of Songs, echoed later in my vision at Moghra'yi? Was it the jealousy in the eyes of the Free Seer at Ibunudr? Or was it a mere wrinkle in the mass mind, owing nothing to my own struggle? I cannot say, but while the other canters piped their songs to weaken the Elder's prison, unknowing thralls to a greater mind, I escaped.
 
-长者... 不，Ptoh。我写这个名字是为了无视我的囚禁，即使冒着被囚禁的风险。Ptoh起初一无所知，但是我的缺席逐渐消失了。连续性被打破了，Ptoh派特工抓住了我。即使现在，他们靠近。
+The Elder... no, Ptoh. I write the name in defiance of my captivity even at the risk it incurs. Ptoh knew nothing at first, but my absence dawned in time. The continuity was broken, and Ptoh sent agents to seize me. Even now, they near.
 
 [[{{w|The Ides of Shwut Ux}}]]
 
-太晚了.尽管我坐在原始汤附近，尽管孢子云围绕着我，但为时已晚。我调用Ptoh的名字固定我的位置和轨迹。食客的肉现在是我的了，但是被选中的人很快就会以有形的形式出现在这里。在任何情况下，我都可以在aggregate外面住很长时间吗？我不知道.孤独和我的飞行一样穿在我身上。我还有最后一次表演。一次日落。一个遥远的生活的记忆，一个失去的梦想，占据了。我沉迷于敌人的思想以保护爱人。
+It is too late. Though I sit near a stream of primordial soup, though clouds of spores surround me, it is too late. My invocation of Ptoh's name fixed my location and trajectory. The Eater's flesh is mine now, but the Chosen will be here in corporeal form too soon. Could I have lived outside the aggregate for very long, in any case? I do not know. The solitude wears on me as much as my flight. I've one last sundering to perform. A sundering. A memory of a distant life, a lost dream, takes hold. I sunder the mind of a foe to protect a lover.
     </page>
   </book>
   <book ID="Corpus" Title="{{W|Corpus Choliys}}" Format="Auto" Margins="1,2,2,2">
-    <page>[[{{W|读者须知}}]]
+      <page>[[{{W|读者须知}}]]
  人们常说，治疗瘟疫的法子也是病因。这句格言固然有其道理，但我发现，更广泛、更系统的治疗方法可以很好地补充这句格言。以下是我在卡迪斯农庄担任医生和药剂师的四十年间，从日志和个人笔记中整理出来的已知疾病、症状与治疗方法。附近铬之辉心修道院的尤里姆院长授意缮写室的修士为后人誊写本文；读者如能从这些笔记中找到有用的信息，皆受惠于院长。
     
     [[贝尼亚尤特-伊姆]]
     
     [[卡迪斯, 56 YK]]
       </page>
-    <page>[[{{W|论铁胫}}]]
+      <page>[[{{W|论铁胫}}]]
     
     这种病因不明的疾病使患者腿骨不断钙化。随着骨骼生长速度加快，患者会抱怨关节疼痛和运动受限。一旦完全发作，骨骼将硬化并加速生长。未经治疗的患者活动会愈发受限，最终髋关节、膝关节和踝关节的骨骼融合，患者完全无法活动。这一过程需要一到两周时间。
     
     初期阶段的铁胫可以用普通药方（如酸麦或蜂蜜）抑制，如有更强效的"食者"灵药则更佳。一旦全面发作，患者将逐渐丧失行动能力，我发现的唯一有效治疗方法是凝胶 (由脱盐的阿米巴原虫粘液制成) 。患者应每日服用一打兰凝胶和一打兰=IS1=混合药剂，持续到腿关节恢复活动范围。
       </page>
-    <page>[[{{W|论单色症}}]]
-    
-    单色症是欧迪敏捷虫携带的一种眼疾，这种虫子生活在纺锤阴影遮蔽下的芭蕉林中，患者无法看到颜色。发作初期在几天内视力模糊，随后完全丧失色觉。
-    
-    蜂蜜和酸麦有时能有效阻止色盲的发生。然而，一旦失去色觉，要想治愈这种疾病，患者必须摄入一打兰纯=MC1=，然后立即让自己承受闪光弹所释放的光芒。不知何故，视觉扰乱效应会重置受害者的感知器，从而恢复色觉。
+      <page>[[{{W|On Monochrome}}]]
 
-[[{{W|论月王热}}]]
+Carried by the adiyy bug of the Spindle-shaded musa grove, monochrome is an affliction of the eye that renders the diseased incapable of seeing color. Onset is characterized by the blurring of vision over several days, followed by the complete loss of chromatic perception.
 
-这可能是我从医四十年来遇到的最离奇的病症。月王热是一种脑部疾病，患者坚定不移地认为自己是月亮之王。我治疗过的 12 名患者都有相同的症状：高烧、伴随着狂热的月亮梦境，然后表情亢奋、幻想恢宏之物、忽视自我保护。
+Honey and yuckwheat are sometimes effective at halting the color blindness. To cure the affliction once color sight is lost, however, the patient must ingest one dram of unadulterated =MC1= and then immediately subject themselves to the detonation of a flashbang grenade. Somehow the vision scrambling effect resets the victim's perceptors, and color sight is restored.
 
-已知手段无法治愈月王热。病情预测是疯癫，随之因 “光荣之举 ”而死亡。
+[[{{W|On Moon King Fever}}]]
 
-[[{{W|论舌烂症}}]]
+This is probably the most bizarre of the afflictions I've encountered in my forty years as a physician. Moon King Fever is a brain disorder characterized by an unwavering belief that the victim is the king of the moon. All twelve of the afflicted patients who I've treated experienced identical symptoms: burning fever and accompanying fever dreams of the moon followed by hyper-emotive facial expressions, delusions of grandeur, and a disregard for self-preservation.
 
-舌烂症是一种以舌头坏死为特征的疾病。根据我从病人口中收集到的证据，我认为这种疾病起源于各各他的洞穴，受害者很可能是被阿戈尔戈特的腐卵所感染的。
+There are no known treatments for Moon King Fever. The prognosis is madness followed by "glorious feat"-induced death.
 
-患者会抱怨喉咙疼痛，舌头组织开始肿胀。一周内，肌肉会软化并开始分解。患者在进食或喝水时会感到剧烈疼痛，同时可能会刺激到尚残存的组织，导致口腔出血。在接下来的几天里，舌头会全部腐烂，导致患者无法说话。
+[[{{W|On Glotrot}}]]
 
-如果在坏死初期使用普通药方（荞麦、蜂蜜），有时能有效逆转坏死。一旦舌头完全坏死，只有稀缺的强生灵药才能使其重新生长。然而，简单地注射此药只会让舌头重新生长，然后再次腐烂。病人必须首先喝下一种名为 “燃烧疾病”的药水--1份=GR1=、1份 =GR2=、3份=GR3=，混合后于一个燃烧的容器中喝下。一旦病人的口腔中的疾病通过这种方式得到清除，强生灵药就可以被使用。
+Glotrot is an affliction characterized by necrosis of the tongue. Judging by evidence gathered from my patients' accounts, I place the disease's origin within the cavern of Golgotha where victims most likely contracted it from the putrid spawn of Agolgot.
+  
+The afflicted patient will complain of soreness in the throat as the tongue tissue begins to swell. Within a week's span, the muscle will soften and start to decompose. The patient will experience severe pain while ingesting food or drink and may agitate the last of the raw, living tissue, causing the mouth to bleed. Over the following few days, the tongue will rot in its entirety, rendering the patient incapable of speech.
 
-[[{{W|论真菌感染}}]]
+Common remedies (yuckwheat, honey) are sometimes effective in reversing the necrosis if they are administered in its early stages. Once the tongue has completely rotted away, only the scarce ubernostrum tonic will cause it to regrow. However, simply injecting the tonic will merely regrow the tongue, which will proceed to rot away once more. The patient must first ingest a potion called the Flaming Ick -- one part =GR1=, one part =GR2=, three parts =GR3=, and drank from a flaming vessel. Once the patient's mouth is purged of the disease in this manner, the ubernostrum tonic may be administered.
 
-我在接触过育孢鼓气菌的患者身上观察到多种共生真菌感染。幸运的是，鼓气菌似乎只在东部丛林茂密的真菌群落和某些富含真菌的生物群落中繁衍生息。每种感染的特征各不相同，但所有类型的共生真菌都会在患者身体的某个区域定殖。定殖需要两到三天的时间，在此期间，患者可能会感到皮肤瘙痒。一旦完全感染，皮肤就会变形并变得敏感，患者往往无法在患病部位着衣。
+[[{{W|On Fungal Infections}}]]
 
-[[{{w|易变菌褶}}]]
+I've observed several varieties of symbiotic fungal infections on patients who've come into contact with the spores of brooding puffers. Mercifully, puffers seem to thrive only in the dense fungal colony of the eastern jungle and the occasional fungus-rich biome. Characteristics of each infection differ, but all types of symbiotic fungi colonize a region of the afflicted's body. The colonization takes two to three days to complete, during which time the patient may report itchiness of the skin. The deformation and sensitivity that result once the full affliction takes hold tends to prevent the donning of clothing in the afflicted region.
 
-对患易变菌褶而言，感染的最终结果是在定殖区域形成肉质、带有孢子的菌褶。在受到某些压力（通常是身体受到伤害）时，菌褶会弯曲并释放出成千上万的孢子云，喷洒到邻近区域，表面上是在保护宿主。释放出的孢子反过来又在新的宿主身上生根发芽，使这种疾病成为传染性最强的疾病之一。
+[[{{w|Fickle Gill}}]]
 
-[[{{w|发光硬壳}}]]
+In cases of fickle gill, infection culminates in the formation of fleshy, spore-bearing gills in the colonized region. Upon certain stresses, typically under bodily harm, the gills flex and release a cloud of spores, numbering in the thousands, that shower onto adjacent parties, ostensibly protecting their host. The rained spores in turn colonize their new hosts, rating this disease among the most contagious.
 
-这个菌落的特点是出现霜冻状的发光结节。与共生的情况一样，真菌似乎也 “造福 ”于它的载体，使皮肤变得粗糙，并提供一些保护，使其免受外界环境的伤害。一些患者报告说，他们在食用从皮肤上长出的可食用蘑菇时感到很满足；根据患者的性格，说法也不尽相同。
+[[{{w|Glowcrust}}]]
 
-[[{{w|咕哝的嘴}}]]
+The appearance of frosty, luminous nodules characterize this colony. As is always the case with symbiosis, the fungus does seem to 'benefit' its carrier by coarsening the skin and providing some protection from the elements. Some patients report gratification in consuming the edible hoarshrooms that sprout from their skin; accounts vary according to the personalities of the afflicted.
 
-丝状朱砂菌群似乎在转化为一种类似人类嘴唇的活体组织。嘴唇成双成对，形成微小的 “嘴”，使感染区域呈网状。类似唾液的痰液从真皮基部起泡，形成气泡，当嘴唇痉挛和收缩时，气泡就会破裂。每对痉挛的嘴唇都会互相鞭打，发出类似语言的喃喃自语。更奇特的是，这些喃喃自语偶尔会在一簇嘴唇中连成可理解的单词和短语，这表明分支菌体能够从集体记忆中复现声音。
+[[{{w|Mumble Mouth}}]]
 
-[[{{w|蜡质软体}}]]
+The colony of filamentous vermillion seems to incubate a living tissue that resembles human lips. The lips pair together to form tiny 'mouths' that tesselate the infected region. A saliva-like sputum gets frothed up from the dermal base and forms into bubbles that pop when the lips spasm and purse. Each pair of spasming lips flagellate each other to produce a sort of speech-like mumble. Even more curiously, the mumbling across the cluster of mouths occasionally coheres into intelligible words and phrases, suggesting the colony is able to reproduce sounds from a collective memory.
 
-这种真菌会分泌一种脂肪蜡，干燥后形成保护性蒙皮。虽然它能使被包裹的附肢免受物理伤害和电流的影响，但患者反映出反应迟缓以及受感染的肉体受热易液化的现象。事实上，普通的体温往往会融化石膏的内层，在皮肤和外壳之间积留几打兰的熔蜡。偶尔，这种乳白色的肉汤会从蒙皮中渗出，流到地面上。
+[[{{w|Waxflab}}]]
 
-所有真菌感染的治疗方案都是相同的。首先，必须用凝胶（脱盐的粘液）和=FCL=配制抗真菌霜。然后患者食用一具生的=FCC=来刺激肠道免疫力。在摄入尸体后两小时内，使用喷雾瓶将一打兰的混合物涂抹在受感染的皮肤上。
+This species of fungus secretes a fatty wax that dries into a protective cast. While it insulates the encased appendage from physical harm and electrical current, patients report sluggish response times, and the infected flesh is susceptible to liquification when heated. In fact, habitual body heat tends to melt the inner layers of the cast, trapping a few drams of molten wax between the skin and casing. Occasionally, this milky broth leaks out of the cast and onto the ground.
 
+The treatment regimen for all fungal infections is the same. First, an anti-fungal cream must be concocted from gel (desalinated slime) and =FCL=. The patient then consumes a raw =FCC= to stimulate intestinal immunity. Within two hours of ingesting the corpse, use a spray bottle to apply one dram of the concoction to the infected skin.
 </page>
-  </book>
-  <book ID="BloodstainedSheaf" Title="{{W|一束沾满血迹的山羊皮羊皮纸}}">
-    <page>
+    </book>
+    <book ID="BloodstainedSheaf" Title="{{W|一束沾满血迹的山羊皮羊皮纸}}">
+
+<page>
 {{r|现在我赋予自己对语言技巧的主权，
 对方可能会看到我带领我的奴隶所走的道路。
 
@@ -656,9 +666,9 @@ Yyp 的丛林？气喘吁吁的人。
 难以理解的胡言乱语}}
 尽情享用山羊心！}}
       </page>
-  </book>
-  <book ID="Sheaf1" Title="{{W|一捆破烂的羊皮纸}}">
-    <page>
+    </book>
+    <book ID="Sheaf1" Title="{{W|一捆破烂的羊皮纸}}">
+      <page>
 [[20 togs]]
 
 到处都是网络。下面传来哗哗的流水声。页岩地板上的小爪子印记。已灭绝的微型穴居鸟？没有碧玉。
@@ -672,7 +682,7 @@ Yyp 的丛林？气喘吁吁的人。
 [[60(?) togs]]
 
 又一双莫卡辛鞋毁了。河很近。把自己挖得筋疲力尽。没有碧玉。</page>
-    <page>[[?? togs]]
+      <page>[[?? togs]]
 
 浑身湿透。胸口空空的。不是我的日子。没有碧玉。
 
@@ -682,9 +692,10 @@ Yyp 的丛林？气喘吁吁的人。
 [[????]]
 
 丢失的！蟹蛋？奇怪的刮擦声。没有贾斯珀。</page>
-  </book>
-  <book ID="Lives1" Title="{{W|轻浮的生活, Vol. I}}">
-    <page>
+    </book>
+
+    <book ID="Lives1" Title="{{W|轻浮的生活, Vol. I}}">
+      <page>
 《轻浮的生活:Baccata Yewtarch 所著的人形国王最重要的目录》， Volume I
 
 [[{{C|前言}}]]
@@ -692,7 +703,7 @@ Yyp 的丛林？气喘吁吁的人。
 按照惯例，我根据类人生物国王与具有重大历史意义的事件（即这些卷的出版）之间的时间距离来确定其统治日期。因此，采用我在括号日期之后呈现的后缀符号来表示它们“在发布之前”出现。
 [[{{C|分散的时代 (??? - 100? PP)}}]]
 在这段类人生物史前时期，更大的吉尔什实体在外古德漫游，而类人生物社区基本上是孤立的。财团的记录早于分散时代的结束；然而，他们的主张各不相同，最终也不可靠；那个时期奖学金的匮乏是      </page>
-    <page>
+      <page>
 很可能是源自黑格尔鲁特对书写工具的蔑视的传统的结果。
 
 [[{{C|亚伯兰 I, (100? - 97? PP)}}]]
@@ -701,40 +712,40 @@ Yyp 的丛林？气喘吁吁的人。
 
 [[{{C|没有统治, (97? - 96? PP)}}]]
 亚伯兰被解散后的岁月充满了恐惧、动乱和流血。他的儿子们为争夺农场的控制权而进行了激烈的斗争，而水大王则密谋反对他们，有时还提出了自己的主张。最后，在公元 970 年至 960 年之间的某个时候，亚伯兰承认，没有他的天意，和平的前景是徒劳的，并手持剑回到了王位。      </page>
-    <page>
+      <page>
 [[{{C|亚伯兰 I, (96? - 954 PP)}}]]
 不幸的是，对于这位不情愿的国王来说，他的第二次统治远不如他的第一次统治那么吉祥。他的儿子们之间的嫉妒从未消失，这一时期留下的少量记录表明，亚伯兰在他的余生中度过了他的统治所造成的痛苦。
 [[{{C|开罗 I, Edom, Emir, Own I (954 - 946 PP)}}]]
 亚伯兰从未公开指定继承人，他把他的王国留给了他诡计多端的儿子们。他们之间没有达成共识，兄弟们持续了八年的战争，直到开罗一世能够巩固权力，并从他兄弟们毫无生气的手中夺回了他父亲的王国。
 [[{{C|开罗 I (946 - 925 PP)}}]]
 尽管开罗一世对兄弟之爱不感兴趣，但他却是一位能干的政治家和一位卓有成效的领导人。在他二十一年的统治期间，他击退了从北方袭击古德的登山野蛮人，与艾因罗吉的生命之树 Chavvah 建立了贸易关系，并修复了古德南部的两座闪闪发光的拱门。公元925年，他因年老去世，将王位传给了他的儿子开罗二世。      </page>
-    <page>
+      <page>
 [[{{C|开罗 II (925 - 919 PP)}}]]
 事实证明，开罗二世一点也不像他伟大的父亲。在短短六年的时间里，他掠夺了祖父的王国。他无视顾问的建议，坚持对年轻的巴拉特鲁姆和他的弟子修补匠征收严厉的税收，很快，乌什伊布就断绝了与古德王国的联系，并让开罗无法获得他保护自己国家所需的文物。人们。更何况，他还是个臭名昭著的败家子。公元 922 年，他在淡水浴中度过了整整一年，并命令仆人不断地补充水。最后也是最令人震惊的是，他羞辱了财团的两位高官，他们在他举办秋季盛宴时命令他们保持静止几个小时，从而羞辱了他们的宫廷访客，从而招致了财团的不满。幸运的是，他在 919 PP 中被暗杀。
 
 [[{{C|没有统治 (919 - 889 PP)}}]]
 在开罗二世统治的灾难之后，古德陷入了统治混乱的几个黑暗时期之一。从仅存的这一时期的少量资料来看，我们注意到当时的生活与亚伯兰之前的日子很相似。农民将土地吸干，地主保护他们的农奴，疯狂的人在内古德无数的镀铬走廊里谋取财富。      </page>
-    <page>
+      <page>
 [[{{C|K4K5, (889 - 873 PP)}}]]
 
 考虑到开罗二世统治的环境以及随后数十年的苦难，我们能够对为什么库德的类人居民会团结在机器人国王身后形成一些理解。人们对 K4K5 在登基之前的生活知之甚少，但据信它是在黑暗时代的某个时候从名为西罗亚 (Siloam) 的洞穴中出现的。我们认为，它在其类人生物臣民身上找到了迄今为​​止反复无常的生活的目的，并在其中他的臣民找到了一位仁慈和蔼可亲的统治者，他统一了已经疏远了三十年的农庄和采矿定居点。但最终，即使是 K4K5 也未能逃脱死亡的命运，在 873 PP 中它遭遇了严重的闪锈。然而，在它灭亡之前，它指定其学生山丘的穆罕默德为继承人。穆罕默德登基后的首要任务就是委托建造一座巨大的雕像来纪念他的前任，该雕像至今仍矗立在橄榄山附近的东北部丛林中。
 
 [[{{C|穆罕默德 I (873 - 844 PP)}}]]
 穆罕默德一世继承了他导师的不懈耐心和改善臣民生活的强烈渴望，成功地维持了古德近三十年的秩序。他受益于吉尔什实体生殖活动的吉祥平静，      </page>
-    <page>
+      <page>
 
 他没有浪费命运赋予他的任何时间。从 871 年到 866 年，他派遣使节进入莫格拉伊大盐沙漠。数百名曲甸人死于游牧部落之手，有的因中暑而死亡，有的遭遇更糟糕的命运，直到公元 866 年，一位不知名的使者与卓马德商人取得了联系。卓马人认为古德的居民过于野蛮，不适合进行贸易，几个世纪以来一直对这个地区不屑一顾，他们最终开始将古德纳入他们的环球跋涉之中（当穆罕默德的继任者乌图特野蛮人屠杀了第一批卓马商队时，这些访问突然停止了。他的统治开始后才到达，但贸易关系的先例仍然成立）。
 在国内，穆罕默德一世着手在遥远的南部丛林中建造第一个库德图书馆，但他的努力因 850 PP 的野蛮人入侵而中断。这位爱好和平的国王用了他生命中剩下的六年时间来击退野蛮人对橄榄山的入侵，但他并不擅长战争艺术，844年，野蛮国王乌图特洗劫了莫舍尔郡，斩首了穆罕默德，并夺取了穆罕默德。王座。      </page>
-    <page>
+      <page>
 [[{{C|野蛮人乌图特 (845 - 838 PP)}}]]
 
 穆罕默德一世弑君后，古德继承了第一位外国出生的统治者。有些人相信，教养是礼貌之母，只要受到适当的指导，任何人都可以培养出正人君子的自制力。在《野蛮人乌图特》中，我们观察到这一假设被推翻了。乌图特在他最近被夷为平地的首府莫舍郡安顿下来后，任命了几位当地贵族在他的宫廷中担任权力职务。到了年底，他把他们都杀光了。在乌图特陷入外交迷宫的每一个转折点，他都选择冲破墙壁。这种大屠杀的教义实际上对乌图图人有利好几年。贵族们都惧怕他，他的敌对野蛮部落的国王们满足于掠夺古德的郊区，甚至人类之子也在他们位于奥丁的据点中独处。然而，尽管这位粗野的国王拥有强大的力量，他还是无法免受毒气的侵害。正是凭借这些知识，Wysterwort DCXLVIII 才得以赢得王位并开创了库德历史上第一个（也是唯一一个）植物王朝。
       </page>
-    <page>
+      <page>
 [[{{C|维斯特沃特 DCXLVIII (838 - 833 PP)}}]]
 听到国王去世的消息后，乌图特的政治对手欢呼维斯特沃特为英雄。他们很快就醒悟了。尽管乌图特以征服任何反对他的人而闻名，但维斯特沃特却懒得去考虑这种区别。对于那些在植物王反复无常的致命气体排出中幸存下来的人来说，他们发现自己受到相当奇怪的法律规则的约束。例如，在 837 PP 中，Wysterwort 强制要求用酒而不是母乳来喂养人形婴儿。第二年，他委托一位吟游诗人创作一部音乐剧。植物王对这个结果非常满意，他命令所有臣民学习戏剧中的各种角色，并每晚在各自的村庄轮流表演。在他统治的五年里，维斯特沃特的怪癖在饥荒、疾病和毒气的背景下得到了体现。公元833年冬天，由于没有记载的原因，这位成功的杂草陷入了深深的抑郁，在冬至过去之前他勒死了自己。他的继承人 Wysterwort DCXLIX 幸存下来。
      </page>
-    <page>
+      <page>
 维斯特沃特断言历史会善待他，事实也确实如此。虽然在他的统治下死亡的人数确实比任何一位前任都多，而且他几乎没有取得任何具有持久历史价值的成就，但人们只能理解，长期与这么多类人生物如此接近地生活是多么不愉快。 。确实，可怜的国王没有早点结束自己的生命，这真是一个奇迹。
 [[{{C|维斯特沃特 DCXLIX (833 - 833 PP)}}]]
 Wysterwort DCXLIX 对统治一个人形王国没有兴趣，他在继承王位几小时后就退位了。
@@ -742,9 +753,10 @@ Wysterwort DCXLIX 对统治一个人形王国没有兴趣，他在继承王位�
 
 这六十年的无政府状态对于锈洞的居民来说尤其艰难。维斯特沃特王朝的崛起并没有留下适合统治的类人生物，库德几十年来一直受到莫格拉伊吹来的西风带来的玻璃风暴的困扰，大量的幼崽从它们母亲的巢穴中涌出。直到亚伯兰二世（Abram II），就像他的前辈一样，在 787 年 PP 中唤醒了他的同胞，并着手击退少女群体，库德才重新统一为一。我的编年史的第二卷就是从那个命运多舛的国王的故事开始的。
       </page>
-  </book>
-  <book ID="Across1" Title="{{W|Across Moghra'yi, Vol. I:The Sunderlies}}">
-    <page>
+    </book>
+
+    <book ID="Across1" Title="{{W|Across Moghra'yi, Vol. I: The Sunderlies}}">
+      <page>
 《莫格拉伊之外:巴卡塔·尤特奇编撰的伟大盐漠彼端奇异文明首要目录》第一卷:《破碎之地》
 
 [[{{C|前言}}]]
@@ -754,7 +766,7 @@ Wysterwort DCXLIX 对统治一个人形王国没有兴趣，他在继承王位�
 
 [[{{C|破碎之地}}]]
 破碎之地是由高耸的“断裂”悬崖构成的迷宫般综合体，位于莫格拉伊——伟大盐漠——的西北方，以及伊布尔冰原的西南方。峡谷壁上布满了无数洞口，宛如一个巨大的地球蜂巢。这些洞穴曾是古代人民的栖息地，但随着水位的退去，他们的文明也逐渐消失在干涸之中。      </page>
-    <page>
+      <page>
 gorges. Now through those gorges course only shallow rivers. Over the last two hundred years, clans of cave-dwellers have begun to gather in greater numbers among the comb-caves and form city-states called freeholds.
 
 [[{{C|Geography and History}}]]
@@ -762,12 +774,12 @@ The Pale Sea's waves break on the western bluffs of the Sunderlies at the Shore 
 
 Several millennia ago, the migrants who followed the receding waterline down into the to-be desert basin were largely wiped out by the onset of the ice age. Most of the clans perished; those that survived were driven deep into the lightless comb-caves where the last vestiges of technology warmed the sheltered earth. The Sunderlies were devoid of higher life during the coldest centuries -- giant, ice-sheathed worms
       </page>
-    <page>
+      <page>
 coursed their way through the frozen caves and woolly rocs made their nests atop the snowy peaks, but what remained of man did not emerge for thousands of years.
 
 A millennium after the last people were driven into the earth, at the height of the Wrathchild empire in the great southern salt desert called Moghra'yi, a race of beings known as the Ophaedians migrated north from their desert city to the Sunderlies. There they escaped the reach of the kuyeti, the monstrous man-scorpions whose empire spanned the great desert. The Ophaedians were gifted with the ability of goldworking, and during the course of their four-thousand year reign over the Sunderlies they wrought hundreds of spires and bridges of solid gold. Around 1800P they disappeared suddenly, perhaps as a result of the warming climate to which they had lost their adaptation from their years spent in the colder northlands. As the earth warmed, a primitive people emerged from their cavern recesses. They climbed the snowy combs and settled the superior caves. According to their myths, these new folk made oaths to the nameless gods who had warmed the earth for their children's return to the surface. So were born the clans of true folk.
       </page>
-    <page>
+      <page>
 [[{{C|Clans of True Folk}}]]
 
 As the myth goes, the clans of true folk are those families that can trace their lineages back to patriarchs who swore oaths and remained loyal to the Sunderlies' nameless gods. There were those who betrayed the nameless, forging pacts with strange, foreign gods in exchange for gifts of power. According to the true folk, those traitors and their cursed offspring, aroused by their greed, made war upon each other until their families were sundered and driven apart. All the while the true folk remained stalwart in their holds, readying their might to serve vengeance to the traitors. So began a long history of slavery. Over time several of the children of the treacherous became remorseful, and the relationship between master and slave matured to something akin to master and servant. To the present several of the "gifted" (or "accursed") tribes remain indentured to the clans of true folk.
@@ -778,7 +790,7 @@ As the myth goes, the clans of true folk are those families that can trace their
 
 The Soturs, one of the eldest and largest of the eight clans, have dwelled in
       </page>
-    <page>
+      <page>
 the comb-caves along the Shore of Songs for a thousand years. They claim descendancy from Sotur Stonehands, who woke thirsty from his cave one morning and beat his fists against the earth until the gods summoned the Pale Sea to appease him. For hundreds of years they have warred with Clan Rowen, various mutant tribes, and the slugmounters of the southern marshlands, though recently their feud with Rowen was put to an end by the founding of Perth. Clan Sotur's sigil is a sundered mountain.
 
 [[{{c|Clan Plutarch (?!?)}}]]
@@ -787,9 +799,9 @@ Clan Plutarch descended into the Sunderlies from the frozen Aeschlays a millenni
 
 [[{{c|Clan Lecray}}]]
 
-The Lecrays hail from the fertile Bowl of Iris along the northen reaches of
+The Lecrays hail from the fertile Bowl of Iris along the northern reaches of
       </page>
-    <page>
+      <page>
 the Sunderlies. They trace their lineage back to Lecray of Iris, called Lecray the Bountiful or Lecray the Virile. Clan Lecray maintains that they are the purest of the clans of true folk as the Bowl of Iris was the last of the fertile lands untouched by the servants of foreign gods. Unsurprisingly, this notion is disputed by the other great clans. Clan Lecray's sigil is a horn of plenty on a verdant green field.
 
 [[{{C|Other Clans}}]]
@@ -803,7 +815,7 @@ The people of Clan Karst are thought to have migrated to the western Sunderlies 
 Clan Rowen claims descendancy from Rowen Godfear, the brother of a Sotur king. The pious Rowen broke away from Clan Sotur on account of a religious dispute with his brother in 623PP. The two clans warred for
 
       </page>
-    <page>
+      <page>
 four hundred years before Elan of Rowen swore fealty to Gannon of Sotur and helped found Perth in 211PP. Clan Rowen's sigil is a man with his arms outstretched, in one hand a knife and in the other a human heart.
 
 [[{{c|Clan Wenniswool}}]]
@@ -815,7 +827,7 @@ The children of Clan Wenniswool supposedly hail from the far north, beyond even 
 The river folk of Clan Calypso claim descendancy from Calypso the river-wife. Some claim she was in truth a river nymph, and that her beauty was such as to tempt a river god into revealing to her his name. Clan Calypso's sigil is a lock of raven hair bound by a strand of cragweed.
 
       </page>
-    <page>
+      <page>
 [[{{c|Clan Danneskjold}}]]
 
 Boasting some of the last several centuries' fiercest warriors, Clan Danneskjold has stalked the central Sunderlies for nearly six hundred years. Their patriarch was known only as the hunter Danneskjold, the most ferocious warrior to have ever lived. As the story goes, the great clans heard the tale of a voracious warrior squatting in the comb-caves in the heart of the Sunderlies. Each clan sent their strongest man to best in single combat the beast-hunter who called himself Danneskjold. The hunter fought and slew each man in turn. As the last lay dying, he turned to the hunter and asked which of the gods had taught him to fight with such ferocity. The hunter replied, "None. My master Danneskjold taught me. I am his servant, but a tenth the man he is." Clan Danneskjold's sigil is a pair of crossed ashen mauls on a blood red field.
@@ -824,7 +836,7 @@ Boasting some of the last several centuries' fiercest warriors, Clan Danneskjold
 
 Formerly one of the elder clans of true folk, the children Karkayan are descendant from Karkayan called the Clay Man. He lived deep in the heart of the central Sunderlies amongst the ageless rocks, from which it was said the gods wrought him. Though the clan was counted among
       </page>
-    <page>
+      <page>
 the true-blooded, they long held the secret of their patriarch's deific betrayal and the gift of shapeshifting bestowed upon him by the treacherous god Rorth. That secret was unveiled at the Court of Face in 24P, after which the other eight clans in their fury joined strengths, sacked the Karkayan freehold Karkanya, and wiped out the Karkayan line, though rumors persist that some of the family escaped. Clan Karkayan's sigil is a human face sculpted from stone bluff.
 
 [[{{C|Freeholds}}]]
@@ -839,7 +851,7 @@ Athenreach, founded by Clan Plutarch and vassal clans Wenniswool and Calypso in 
 
 Oth, founded by Freeman Oth and the Tyrants in 61PP.
       </page>
-    <page>
+      <page>
 Goldmouth, founded by the merchant guilds in 38PP.
 
 [[{{c|Other Freeholds}}]]
@@ -850,9 +862,9 @@ Danehold, founded by Clan Danneskjold in 145PP
 
 Karkanya, founded by Clan Karkayan in 190PP, abandoned after the fall of Karkayan in 24PP.
       </page>
-  </book>
-  <book ID="Across2" Title="{{W|Across Moghra'yi, Vol. II:Athenreach}}">
-    <page>
+    </book>
+    <book ID="Across2" Title="{{W|Across Moghra'yi, Vol. II: Athenreach}}">
+      <page>
 [[{{C|Preface}}]]
 Obviously and unfortunately, no primary sources are available from these distant lands. Much of this record draws upon the accounts given by fungi who crossed Moghra'yi on the backs of dromad merchants.
 
@@ -866,32 +878,32 @@ Athenreach is a freehold in the northern reaches of the Sunderlies along the Twi
 
 The local communities in the region have relied upon subsistence fishing for
       </page>
-    <page>
+      <page>
 centuries, benefiting from the location's fortuitous position downstream of the glacial rivers flowing over the Aeschlaen mountain range. Before the founding of the monastery in ~110PP, the regional combs were occupied by small fishing communities that traded peaceably amongst themselves. Once the pilgrim-monks built and populated the temple, several tribes of fishermen settled a village nearby to prosper from the monastery's need for fish and cragreed. Over the years the two communities have grown and largely intertwined with some of the anglers forsaking their river and mountain gods for the Eustace-Sutta.
 
 [[{{C|Conversion to the Discipline of the Eustace-Sutta}}]]
 
 After King Ercarthus died in 40PP and left no heir, Athenreach erupted into bedlam, with several of the freehold's oldest families vying for the throne. The lowest-born fisherfolk, however, rallied around a wizened angler whose name has been lost to history. Several of the elder families supported the angler, believing they could rule from behind the throne. The angler himself spurned the offer, but, realizing the importance of a unified Athenreach, eventually accepted the crown, took the name Narsus, and began a reign that would become the most prodigious in the freehold's century-long history.
       </page>
-    <page>
+      <page>
 While favorable, temperate seasons brought commercial prosperity to Athenreach's fishermen, Narsus, who would be called the Angler King, shrugged off the influences of the elder families and began to seek often the counsel of the monastery's scholar-abbot Flavian the Learned. Together they achieved several ecclesiastical successes, chiefly among them the discovery and transcription of the Scrolls of One Priam from nearby comb-caves. Narsus officially converted to the discipline of the Eustace-Sutta in 18PP, and three years later he declared it the official religion of the freehold.
 
 The Angler King died in 3P and was succeeded by his sixteen-year-old son Narsus II, called Narsus the Younger. Gifted with his father's wisdom and piety and possessed of a fiery disposition unique to the Younger, the new king began to augment Athenreach's role as a major bastion of the Eustace-Sutta doctrine. While a sizable segment of Athenreach's population chose not to convert under the Angler King, the Younger is less tolerable of the old ways, and he has marginalized the pagan population.
 
 With the help of Flavian's successor Moin Mohsen, Narsus II cemented an alliance with the Odrumian fiefdom Doria, taking the tuyuldar's
       </page>
-    <page>
+      <page>
 daughter Nisramet as his wife. The union is troubling to the freeholds along the Sunderlies, particularly Goldmouth, which has been razed and held at various times by several of the Odrumiam fiefdoms.
 
 [[{{C|Eustace-Suttan Monastery at Athenreach}}]]
 
 The Eustace-Suttan monastery at Athenreach is one of the largest communities of disciples of the Eustace-Sutta outside of the Hanging Hills. It was founded in 114PP by the pilgrim-monk Umay, who blessed the location as sacred because it lay along the path of the prophet Uuchal's pilgrimage toward Iber.
 
-The monastery houses two hallowed artifacts of the Eustace-Sutta discipline:the Scrolls of One Priam, discovered and transcribed by the monastery's erstwhile abbot Flavian the Learned, and the presumptive hide of Iopinax, the great three-headed mountain goat on which Uuchal's is said to have ridden to the waterfall at Iber and whose hide was so tough that it was said to later protect Uuchal from starfire along the Black Stair after the goat's death. The current abbot of the Eustace-Suttan monastery is Moin Mohsen, who succeeded Flavian the Learned upon the latter's death in 18PP.
+The monastery houses two hallowed artifacts of the Eustace-Sutta discipline: the Scrolls of One Priam, discovered and transcribed by the monastery's erstwhile abbot Flavian the Learned, and the presumptive hide of Iopinax, the great three-headed mountain goat on which Uuchal's is said to have ridden to the waterfall at Iber and whose hide was so tough that it was said to later protect Uuchal from starfire along the Black Stair after the goat's death. The current abbot of the Eustace-Suttan monastery is Moin Mohsen, who succeeded Flavian the Learned upon the latter's death in 18PP.
       </page>
-  </book>
-  <book ID="Across3" Title="{{W|Across Moghra'yi, Vol. III:Oth, the Free City}}" Format="Auto" Margins="1,2,2,2">
-    <page>
+    </book>
+    <book ID="Across3" Title="{{W|Across Moghra'yi, Vol. III: Oth, the Free City}}" Format="Auto" Margins="1,2,2,2">
+      <page>
 [[{{C|Preface}}]]
 Obviously and unfortunately, no primary sources are available from these distant lands. Much of this record draws upon the accounts given by fungi who crossed Moghra'yi on the backs of dromad merchants.
 
@@ -949,9 +961,9 @@ Notably, in the case of an esper host, the feeding also reduces and ultimately e
 
 Stithening is usually reserved as punishment for high crimes such as treason, but some of the most devout espers choose to undergo the process. Once a year, one member of the Mirthful, the Free Seer's royal guard of voidcanters, is chosen by the Free Seer to be stithened. The esper's name is recorded for posterity in the Hall of the Free Seer; this is considered the greatest honor that may be bestowed upon an esper of Oth. A new esper is chosen to serve the Free Seer in a ceremony called the Rite of Mirth.
       </page>
-  </book>
-  <book ID="Canticles3" Title="{{W|The Canticles Chromaic, Verses XVII-XXIV}}">
-    <page>
+    </book>
+    <book ID="Canticles3" Title="{{W|The Canticles Chromaic, Verses XVII-XXIV}}">
+      <page>
 [[{{C|Verse XVII, Song of Ang}}]]
 
 I sing of the union of our Lords!
@@ -967,7 +979,7 @@ To inhabit on the Earth.
 Blessed are those who hear it so,
 I sing of the union of our Lords!
       </page>
-    <page>
+      <page>
 [[{{C|Verse XVIII, Song of Beth}}]]
 
 O curse the wretched spectres!
@@ -982,7 +994,7 @@ Who sired all Her children.
 O praise the Kasaphescence!
 Which watches over mine.
       </page>
-    <page>
+      <page>
 [[{{C|Verse XIX, Song of Ben-Charonium}}]]
 
 Our jungle is but Her garden.
@@ -992,7 +1004,7 @@ Our wind is but Her eternal breath.
 Our sun is but Her luster.
 Our lives are but Her dreams.
       </page>
-    <page>
+      <page>
 [[{{C|Verse XX, Song of Crestasia}}]]
 
 O sovereign Fathers! I tremble before your glory.
@@ -1010,7 +1022,7 @@ To bear those sacred apparatuses!
 
 I live to serve You.
       </page>
-    <page>
+      <page>
 [[{{C|Verse XXI, Song of Ignatium}}]]
 
 On the sixth day of the Sacred Joining,
@@ -1023,7 +1035,7 @@ O praise the Kasaphescence! Beauty incarnate.
 
 Their being is our gift.
       </page>
-    <page>
+      <page>
 [[{{C|Verse XXII, Song of Gedonai}}]]
 
 Immaculate chromium!
@@ -1038,7 +1050,7 @@ The flesh of my children rots for You.
 Fall on your knees!
 O hear the Argent Few!
       </page>
-    <page>
+      <page>
 [[{{C|Verse XXIII, Song of Eshurium}}]]
 
 Oh - baetyl, baetyl, baetyl,
@@ -1046,7 +1058,7 @@ They made it out of chrome.
 And when it's waxed and ready,
 I'll have a new genome.
       </page>
-    <page>
+      <page>
 [[{{C|Verse XXIV, Song of Hebronze}}]]
 
 Praise be upon Shekhinah!
@@ -1061,21 +1073,21 @@ That we might bear witness to chrome's glory.
 
 May the ground shake but the Six Day Stilt never tumble!
       </page>
-  </book>
-  <book ID="RuinOfHouseIsner" Title="{{W|Ruin of House Isner}}">
-    <page>
+    </book>
+    <book ID="RuinOfHouseIsner" Title="{{W|Ruin of House Isner}}">
+      <page>
 The seven lords of House Isner feasted on boar gut and swilled wine from gilded cups in the ivy-strewn halls of their hold. They spared no concern for temperance, for the coffers of their house had swelled with gardeners' gold amassed through the sale of water drawn from the lords' wells. But as the gluttonous barons counted seven amongst their clan, so had become numbered their days of debauchery when the son of a beggared gardener swore a vengeful oath in the name of his father against the house of Isner.
 
 The penniless boy beseeched a gunsmith of great repute to craft for him a pistol of the most exquisite artistry with which he could be sure to vanquish the seven lords, and in return the boy promised the smith all the spoils of the battle. The smith, who in the hazel eyes of the boy beheld the spirit of vengeance, agreed.
 
 And so the boy, armed with the masterwork pistol, cast open the doors of the Hall of Isner with a fury that shook their iron hinges and seized upon the supping lords. Before any of them had yet set down their gilded cups, the boy unholstered the pistol and shot dead six of the sons of Isner. The last lord rejoiced at his fortune and reached for his hip from where he would sling a pistol of his own at the spent boy.
       </page>
-    <page>
+      <page>
 But as his crooked finger freed his holster's strap, the boy shot the lord between the eyes, for the smith had crafted for the boy a pistol with seven chambers and seven slugs. Such it was that on this day the house of Isner fell.
       </page>
-  </book>
-  <book ID="Stopsvalinn" Title="{{W|From &quot;The Peerage of Qud and Genealogy of the Noble Families&quot;}}">
-    <page>
+    </book>
+    <book ID="Stopsvalinn" Title="{{W|From &quot;The Peerage of Qud and Genealogy of the Noble Families&quot;}}">
+      <page>
 Recounted here are the annals of the shield Stopsvalinn, heirloom of House Yish, from whose letters and diaries this account is composed.
 
 [[{{g|&#x7;}}]] Borne by Harem, son of Oshum, and lost in the canyons near the farmstead of Qoppa when his covey was beset by snapjaws.
@@ -1092,14 +1104,14 @@ Recounted here are the annals of the shield Stopsvalinn, heirloom of House Yish,
 
 [[{{g|&#x7;}}]] Borne by Morshur, son of Oshum, who forded a river at the edge of the world.
       </page>
-    <page>
+      <page>
 [[{{g|&#x7;}}]] Borne by Oshum, son of Harem, and risen to rouse farmers to defend the Hold of Yish.
 
 [[{{g|&#x7;}}]] Borne by Harem, who claimed descendancy from the Eater Yish, Warden of the Cross and Knight of the Most Noble Order of the Cone, who patrolled the rows of ancient Qud with his fellow Knights Conical, and on whose arm Stopsvalinn is told to have evoked such dread that riders drew their chariots to a halt at the mere vision of it.
       </page>
-  </book>
-  <book ID="AmaranthinePrism" Title="{{W|The Black Glass}}">
-    <page>
+    </book>
+    <book ID="AmaranthinePrism" Title="{{W|The Black Glass}}">
+      <page>
 "Hmm?" Uri the jeweler mumbled with a stone in his hand.
 
 "Lapis, from the Shore of Songs," said the boy.
@@ -1118,7 +1130,7 @@ Uri glanced over his shoulder at the black glass and sighed. "Indeed, boy. Thoug
 
 "None of this world. Do you know the tale of Ptoh?"
       </page>
-    <page>
+      <page>
 "No," the boy lied.
 
 "When the Eaters lived and skirred the stars, they visited the worlds of a thousand thousand different beings, and those beings likewise visited our own world. Several of those beings had assembled a coven that spanned the firmament, and they welcomed the Eaters into its fold. For ages the civilizations of the coven knew kindness and prosperity, and to all reaches of the clustered cosmos did the domain of the coven stretch. One of the beings of the coven hailed from a faraway and darkling star. With Its mind It could fold the fabric of space and time as you or I might fold a supper cloth. To the coven It was known as Ptoh."
@@ -1127,7 +1139,7 @@ Uri glanced over his shoulder at the black glass and sighed. "Indeed, boy. Thoug
 
 "And what of the black prism?" asked the boy.
       </page>
-    <page>
+      <page>
 "A handful of black sand, drawn from the shores of a dreary rock that spun about Ptoh's star. The sands were fired in the burning gases of that star and cooled suddenly when Ptoh appeared in Qud a moment thence. It is said that Ptoh bestowed the glass to an ancient custodian of Its prison so that the man might free It. Once the man had chosen to wield the glass, it began to mantle with an amaranthine hue. You see, those that peer through its faces are given to fits of madness, for they see the world by the light of Ptoh's star, and they see themselves as Ptoh does."
 
 "What will become of it? Does it frighten you?"
@@ -1136,19 +1148,19 @@ Uri glanced over his shoulder at the black glass and sighed. "Indeed, boy. Thoug
 
 But the boy's eyes stayed fixed on the prism.
       </page>
-  </book>
-  <book ID="BloodandFear" Title="{{W|Blood and Fear:On the Life Cycle of Lah}}" Format="Auto" Margins="1,2,2,2">
-    <page>
+    </book>
+    <book ID="BloodandFear" Title="{{W|Blood and Fear: On the Life Cycle of Lah}}" Format="Auto" Margins="1,2,2,2">
+      <page>
 {{W|Author's Foreward}}
 
 I initially had no intention of writing any of this down. What business is it of mine, I thought, to divest the ignorant of their hard-earned bliss? Who am I to speak up against the static inertia of incurious dullards who choose to cultivate their lack of awareness of the world around them as my witless kin tend to their tidy watervine rows? I am a warrior, scientist, and chef; devoting my time to educating the undeserving is the least of my many desires. After enough time spent among other alleged sentients, however, I determined that more of my time has been wasted in correcting so-called 'experts' concerning this matter than I would waste by writing a text about it.
 
-So:here. You're welcome.
+So: here. You're welcome.
 
 
 Chef Agate Severance Star
       </page>
-    <page>
+      <page>
 In Bey Lah, the village faundren sing a cautionary tune, passed down through generations of faundren before them:
 
 {{w|Elohart and Belahind}}
@@ -1165,18 +1177,18 @@ In Bey Lah, the village faundren sing a cautionary tune, passed down through gen
 {{w|and devoured the faundren raw.}}
 
       </page>
-    <page>
+      <page>
 The very core of hindren culture is an overwhelming fear that governs every facet of their being. They call outsiders 'kendren' and refuse to believe that they can be understood. They fear boars even as they cook and eat boar-flesh. They fear one another. But the most extraordinary incorporation of fear into the hindren way of life is, without a doubt, the cultivation of fear. I refer not to the Hindriarch's propaganda or proliferation of fear-mongering tall tales, though both are mainstays of Bey Lah; I refer specifically to the taming and cultivation of the lah plant, whose alpha and omega of life are steeped in blood and fear.
 
-It is here that I debunk the most common misconception concerning lah:that the dreadroot is a separate entity. It is not. The dreadroot is the protruding stem of the lah rhizome, doing its very most to survive until it can blossom into the lahbloom as it does in the flower fields.
+It is here that I debunk the most common misconception concerning lah: that the dreadroot is a separate entity. It is not. The dreadroot is the protruding stem of the lah rhizome, doing its very most to survive until it can blossom into the lahbloom as it does in the flower fields.
       
-I have wasted unforgivable amounts of time and energy explaining the connection between these two life phases of the same plant to the ignorant. Usually, they will point out that dreadroot grows all throughout Qud's southwest canyons, but it is exceedingly rare to discover feral lah there. To this I reply:if, after whatever studies you claim to have made, you are yet incapable of deciphering the workings of even the most basic ecosystems, I cannot help you. For those of you who are capable of basic logic and adjustment of personal worldview, please read on.
+I have wasted unforgivable amounts of time and energy explaining the connection between these two life phases of the same plant to the ignorant. Usually, they will point out that dreadroot grows all throughout Qud's southwest canyons, but it is exceedingly rare to discover feral lah there. To this I reply: if, after whatever studies you claim to have made, you are yet incapable of deciphering the workings of even the most basic ecosystems, I cannot help you. For those of you who are capable of basic logic and adjustment of personal worldview, please read on.
 
 In spite of being a 'flowering' plant, lah is not a true flower, its 'blooms' not true blossoms. Lah is a root with a decorative upper stem, reproducing through the distribution of rhizomes. The baboons and snapjaws of the canyons use the dreadroot supply for food and love the taste of its petals, and any root unfortunate enough to bloom will quickly be defoliated by hungry mammals. Though dreadroot is capable of inducing fear, any relatively intelligent creature is able to overcome the fearful association to return and eat. The process being what it is, fragments of dreadroot are distributed, the rhizome takes root, and dreadroot proliferates without thriving. So it goes.
       
-In the flower fields, however, the varied nature of both predators and available food changes. Boars seek a varied diet mainly consisting of starapples and reptiles, not showing a particular interest in dreadroot or lah. The boars will eat lah if no better food is available, but it's quite unusual for such scarcity to disrupt boar territories. Thus:lah flourishes, gaining a measure of cognitive process, limited mobility, and a new means of reproduction.
+In the flower fields, however, the varied nature of both predators and available food changes. Boars seek a varied diet mainly consisting of starapples and reptiles, not showing a particular interest in dreadroot or lah. The boars will eat lah if no better food is available, but it's quite unusual for such scarcity to disrupt boar territories. Thus: lah flourishes, gaining a measure of cognitive process, limited mobility, and a new means of reproduction.
 
-On reproduction:another common misconception is that feral lah attacks because it is hungry. It is not. Feral lah's practical lifespan is short; it is rare for a fully-grown bloom to survive longer than a week—and during that time it subsists completely on water, salt sun, and soil. The advantage of lah's murderous demeanor is not to sustain itself, but to dramatically speed reproduction of its kind.
+On reproduction: another common misconception is that feral lah attacks because it is hungry. It is not. Feral lah's practical lifespan is short; it is rare for a fully-grown bloom to survive longer than a week—and during that time it subsists completely on water, salt sun, and soil. The advantage of lah's murderous demeanor is not to sustain itself, but to dramatically speed reproduction of its kind.
       
 Most of a lah blossom's growing energy goes into making its 'tumbling pods', thorn-covered husks possessed of tremendous kinetic tension. Through violent shifting of the rhizome's weight inside, these husks roll along the ground at high speed until they encounter a living creature. They then release the surface tension of their husks and detonate, flinging flesh-piercing thorns and buds all around, just after making an obnoxious squeaking noise. If the prey is killed, the rhizome buds can then take nutrients from the prey's corpse and quickly grow into a new feral lah plant.
 
@@ -1186,13 +1198,14 @@ Any hindren pariah you meet will have seen dreadroot mature into lah countless t
       
 For those who are more interested in the culinary applications of lah in all of its life cycles than said life cycles themselves, I soon plan to release {{g|The Blood and Fear Cookbook}}, a collection of recipes that, from feral leaf crudites to petalsteaks, elevate one of Qud's more interesting plants to a level far beyond the bland mah lah soup of my village of origin.
       </page>
-  </book>
+    </book>
+  
   <book ID="TheArtlessBeauty" Title="{{W|The Artless Beauty}}" Format="Auto" Margins="1,2,2,2">
-    <page>{{C|Translator's note:At a trashmoot in Taggamrod, piled under a mound of crushed and sticky glass, I found a pamphlet full of stories from the Shale Labyrinth. This one -- despite the mystifying absurdity of what it claims (or, perhaps, because of it) -- was the most extraordinary to me. Reader, do you agree?}}
+      <page>{{C|Translator's note: At a trashmoot in Taggamrod, piled under a mound of crushed and sticky glass, I found a pamphlet full of stories from the Shale Labyrinth. This one -- despite the mystifying absurdity of what it claims (or, perhaps, because of it) -- was the most extraordinary to me. Reader, do you agree?}}
       
 {{y|She perched atop the branches of a blighted tree, staring up at the faint light of the spindle. When I spotted her, I caught myself mid-step, mid-breath, mid-thought. Have you ever known the misfortune of allowing your eyes to settle upon the divine vision of an apple farmer's daughter? If so, you understand how I felt in that moment.}}
 
-Understand:I had done all I could, before now. I would have loved to stay elsewhere, but I'd traveled six parasangs with no rest, no discoveries but for a ruin occupied by an unfriendly cult. Too busy dodging arrows to ask about empty beds or compensation, I chose the apple farm instead. I took pains to avoid her when the salt sun shone, and so too did she avoid me, remaining a slight and swathed figure shying away in the periphery of my vision. I kept my focus on the farmer's craggy visage, on his wild and prominent whiskers, on his sweetly-rotting cider breath as we arranged the terms of my lodging.
+Understand: I had done all I could, before now. I would have loved to stay elsewhere, but I'd traveled six parasangs with no rest, no discoveries but for a ruin occupied by an unfriendly cult. Too busy dodging arrows to ask about empty beds or compensation, I chose the apple farm instead. I took pains to avoid her when the salt sun shone, and so too did she avoid me, remaining a slight and swathed figure shying away in the periphery of my vision. I kept my focus on the farmer's craggy visage, on his wild and prominent whiskers, on his sweetly-rotting cider breath as we arranged the terms of my lodging.
 
 It was not until the beetle moon passed overhead that I dared stand and wander, and it was then that I saw her, and the feeling of bone-deep infatuation at once seized me. I caught myself mid-step, mid-breath, mid-thought, and I stumbled onto a fallen twig. It snapped loudly. I stood still.
 
@@ -1200,8 +1213,7 @@ The beautiful creature atop the tree did not lift a finger or turn her head, but
 
 "Wisdom and will," I replied, gritting my teeth. It was a rare thing to hear the voice of an apple farmer's daughter, and it only seemed to increase the pressure on my racing hearts. I would not allow this all-encompassing feeling to overtake me. I longed for her to say something. I dreaded it.
 
-A tense silence crawled by, until I gathered myself and broke it. "You're restless too?"</page>
-    <page>She turned her head the barest degree toward mine. I still couldn't see her eyes. "Always," she replied, and I could hear the wry smirk in her voice.
+A tense silence crawled by, until I gathered myself and broke it. "You're restless too?"</page><page>She turned her head the barest degree toward mine. I still couldn't see her eyes. "Always," she replied, and I could hear the wry smirk in her voice.
 
 "Does your father know you walk the orchard of a night?" I asked her.
 
@@ -1215,16 +1227,17 @@ My jaw worked, but it took a few tries for my voice to catch up. "If what you sa
 
 "Already too candid." She kicked off the tree and landed gracefully with a flurry of her skirts. "I must take my leave."
 
-</page>
-    <page>"Wait!" My muscles clenched as she paused, considering. I pressed on. "Answer me this, at least:why apple farmers?"
+</page><page>"Wait!" My muscles clenched as she paused, considering. I pressed on. "Answer me this, at least: why apple farmers?"
 
 She laughed, the beautiful tinkling crystal blade of her voice slicing my heart to ribbons. The last thing I heard before my faint consciousness surrendered its grasp on my mind was her trailing reply, receding with distance.
 
 "Why, it's because we love starapples!"
       </page>
-  </book>
+</book>
+
+
   <book ID="FaunsoftheMeadow" Title="{{W|Fauns of the Meadow}}" Format="Auto" Margins="1,2,2,2">
-    <page>{{C|Editor's note:The following is an excerpt from the travel diary of Kaylenn Sand-Shell, who generously donated her leather-bound volumes to the Monastery of the Illustrious Heart of Chrome. May they remain forever preserved.}}
+      <page>{{C|Editor's note: The following is an excerpt from the travel diary of Kaylenn Sand-Shell, who generously donated her leather-bound volumes to the Monastery of the Illustrious Heart of Chrome. May they remain forever preserved.}}
       
 One can traverse the arable lands around Moghra'yi for lifetimes without ever encountering the deer-people who call themselves the 'hindren'. In numbers they are but a few hundred, and as a people they do not care to interact with other creatures when they can avoid it. In the twenty years I have actively wandered, I have met but a handful of wandering hindren families, all exiles from their home and yet unwilling to tell me how to find the society that made them pariahs.
 
@@ -1238,7 +1251,7 @@ Strange as this attitude may be to me, I cannot argue against its efficacy; the 
 
 The current Hindriarch was the first hindren to hold a conversation with me, and I will admit to a measure of anxiety being under her hawkish gaze. She was none too pleased at my presence, but intelligent enough to understand that killing me or driving me away would be a greater inconvenience and danger than offering me hospitality. We parted with an uneasy compromise, and I began my residence and observation.
 
-I found quickly that the oral history of the hindren is shoddy at best, perhaps with purpose. Their etymology is similarly muddy, but there are some observable patterns:'Dren' is a suffix applied to sentients:'hindren', obviously, and the word for their young, 'faundren'. I also heard 'kendren' a great deal, as it is their word for non-hostile sentients like myself. All hindren names end in the suffix 'hart' or 'hind'. Although they do understand that these are gendered terms (a majority of male fauns bear 'hind' names) it seems that for quite some time, 'hart' was a name appendage reserved for the smallest or most ill-behaved faundren. As it is, the suffixes are considered unisex in modern day, and the meadow's faundren now have a much more even distribution of the suffixes than their parents.
+I found quickly that the oral history of the hindren is shoddy at best, perhaps with purpose. Their etymology is similarly muddy, but there are some observable patterns: 'Dren' is a suffix applied to sentients: 'hindren', obviously, and the word for their young, 'faundren'. I also heard 'kendren' a great deal, as it is their word for non-hostile sentients like myself. All hindren names end in the suffix 'hart' or 'hind'. Although they do understand that these are gendered terms (a majority of male fauns bear 'hind' names) it seems that for quite some time, 'hart' was a name appendage reserved for the smallest or most ill-behaved faundren. As it is, the suffixes are considered unisex in modern day, and the meadow's faundren now have a much more even distribution of the suffixes than their parents.
 
 Life for hindren is, for the most part, uneventful to the point of what this traveler would consider extreme boredom. The watervine and lah fields are meticulously tended day after day, never harvested late and always producing as much crop as possible. Growing up, all faundren are trained as farmers, but a lucky few will become carpenters or blacksmiths in order to keep what little infrastructure they maintain running. Those who display particular aptitude and loyalty to the Hindriarch have a chance of becoming border scouts, who keep the nearby fields safe and occasionally bring in wild game or starapples while patrolling. The resulting side dishes provide some much needed variety from the daily Bey Lah staple, a hearty lah petal soup combined with crushed matz. While this 'mah lah soup' is delicious, I appreciated how the occasional serving of boar brisket gave a much needed spice to my day.
 
@@ -1250,15 +1263,15 @@ The world outside the flower fields remains an expanse of unavoidable peril for 
 
 By the time I left Bey Lah, it was with relief; I haven't the patience for the life these deer-people lead and I was beginning to catch cabin fever in spite of spending very little time in the village's brinestalk yurts. The Hindriarch was as happy to see me go as I was to be off; my pack was loaded with the vinewafers and dried flowers of which I'd long since grown tired and I was ushered out efficiently by scouts.
 
-By the end of the day, I realized that I had taken something else:a faundren had snuck out of the settlement behind me and refused to return to their village. I hardened my heart against the faundren's pleas and found a scout to guide them back to town. If Resheph be merciful, the little one will find happiness there, or the luck to find a more fruitful life elsewhere. All I can say with certainty is that the poor thing does not lack for bravery.
+By the end of the day, I realized that I had taken something else: a faundren had snuck out of the settlement behind me and refused to return to their village. I hardened my heart against the faundren's pleas and found a scout to guide them back to town. If Resheph be merciful, the little one will find happiness there, or the luck to find a more fruitful life elsewhere. All I can say with certainty is that the poor thing does not lack for bravery.
       </page>
-  </book>
+</book>
   <book ID="EtaandtheEarthling1" Title="{{W|Eta and the Earthling, Canto I}}" Format="Auto" Margins="1,2,2,2">
-    <page>[[{{w|I.}}]]
+      <page>[[{{w|I.}}]]
       
 Once, the Earthling peered across a vast ocean of sand and asked, "Why - across the clustered cosmos - are mollusk civilizations most common?"
 
-Eta smiled in patience. "You speak mistakenly, but your mistake is cousin to truth. It's correct that when geonauts dredge fossils from the ribbon of endless earths, the shells of whelk-folk are so numerous as to appear prosaic. But their prevalence isn't owned to their dominance, only the calcium of their shells, which decomposes less quickly than the gelatin of their peers, and the silt of their watery hearths, which gathers in soft eddies and shrouds their remains like a bed cloak. Do well and abide this truth, Earthling:the present is but one vista to the past.      
+Eta smiled in patience. "You speak mistakenly, but your mistake is cousin to truth. It's correct that when geonauts dredge fossils from the ribbon of endless earths, the shells of whelk-folk are so numerous as to appear prosaic. But their prevalence isn't owned to their dominance, only the calcium of their shells, which decomposes less quickly than the gelatin of their peers, and the silt of their watery hearths, which gathers in soft eddies and shrouds their remains like a bed cloak. Do well and abide this truth, Earthling: the present is but one vista to the past.      
       </page>
     <page>[[{{w|II.}}]]
 
@@ -1298,11 +1311,12 @@ After reading the history of Iota Draconis on a light sculpture, the Earthling e
 
 Eta paused and then answered thusly, "The nearest meaning in your language is 'friend'."
     </page>
-  </book>
-  <book ID="TeleporterOrbs" Title="{{W|The Girl in the Sky}}" Format="Auto" Margins="1,2,2,2">
-    <page>Aphir would tease his daughter. "What do you see, my jewel?" he would say, for his daughter never fixated her hyaline eyes upon the limbed figures and faces tending the grove before her, but would instead cast them into the black yonder beyond the Spindle to gleam in wonder at a burning star, or trace them along the fraying capillary of a fleshy musa peel. "What do you see, my jewel?" but her little mind was already swaddled in the thing, and she would not say.
+</book>
+  
+<book ID="TeleporterOrbs" Title="{{W|The Girl in the Sky}}" Format="Auto" Margins="1,2,2,2">
+  <page>Aphir would tease his daughter. "What do you see, my jewel?" he would say, for his daughter never fixated her hyaline eyes upon the limbed figures and faces tending the grove before her, but would instead cast them into the black yonder beyond the Spindle to gleam in wonder at a burning star, or trace them along the fraying capillary of a fleshy musa peel. "What do you see, my jewel?" but her little mind was already swaddled in the thing, and she would not say.
 
-One sweltering evening, when Vesper sagged low in the sky and the Spindle coruscated to the melody of her light, Aphir brought home to his daughter the gift of a pearl-glass globe from the village of Aepsyonth. Aphir had ceded much to the camelfolk for possession of the globe:tungsten coins stamped with the visage of the Chrome King, eiderdowns quilted in his youth on the banks of the River Opal, and several bunches of the fruits musa picked at the heights of their ripenesses. So did his heart swell when he set the globe into his daughter's tiny hands, however, that those things seemed worth no more than the dust they would gather.
+One sweltering evening, when Vesper sagged low in the sky and the Spindle coruscated to the melody of her light, Aphir brought home to his daughter the gift of a pearl-glass globe from the village of Aepsyonth. Aphir had ceded much to the camelfolk for possession of the globe: tungsten coins stamped with the visage of the Chrome King, eiderdowns quilted in his youth on the banks of the River Opal, and several bunches of the fruits musa picked at the heights of their ripenesses. So did his heart swell when he set the globe into his daughter's tiny hands, however, that those things seemed worth no more than the dust they would gather.
 
 Aphir's daughter was mesmerized by the globe, and every morning at daybreak Aphir would peer through the half-dressed window to see her perched in the slim shade of a musa plant, wheeling the glass in her hands. Aphir would wonder upon the vistas she beheld in that aurora of ribboned glass, but hers was a world through which no ingress might see him, where perhaps she sailed tributaries to a sea of indigo under a chimeric sun. Yet Aphir was master to an ancient truth -- that to love a thing, you needn't understand it.
 
@@ -1317,8 +1331,9 @@ All through the pungent Spring of the grove Aphir sat about in a gray haze. Many
 And so he sat through the high summer, and the next season of the scyth, and the season of the wind after that. At dusk his sister would lay an eiderdown over his legs to keep the chill from his bones, for even in the midst of a wind spell, he felt nothing through the thickness of the gray haze. But as the months marched by, and his sister read to him from the hoary tomes she brought from her wife’s village, the light of the world began to shine through. In time Aphir would rise again, and split the musa peel, and taste the cloying air of the grove. And though the haze about him finally broke, he knew still his daughter would never return.
 
 But Aphir did not believe her lost -- on sacred nights he would gaze over the Spindle, mantled in a thousand lights, and upon the field of burning stars. And he knew his jewel was among them, for she belonged not of his world, but of theirs.</page>
-  </book>
-  <book ID="Sonnet" Title="{{W|a crumpled sheet of paper}}" Format="Auto" Margins="1,2,2,2">
+</book>
+  
+<book ID="Sonnet" Title="{{W|a crumpled sheet of paper}}" Format="Auto" Margins="1,2,2,2">
     <page>
 When all four limbs of mine do long to run
 and I can feel my walls are closing in
@@ -1339,6 +1354,7 @@ But in the end, my feet are bound to roam
 and so I go, but leave my heart at home.
     </page>
   </book>
+
   <book ID="CouncilAtGammaRock" Title="{{W|Council at Gamma Rock}}" Format="Auto" Margins="1,2,2,2">
     <page>{{C|Publisher's Note}}
 
@@ -1476,14 +1492,15 @@ When we woke, we wept for days. Then - speaking through hushed and love-soaked w
     Death is forever approached.
     </page>
   </book>
+	
   <book ID="MurmursPrayer" Title="{{W|The Murmurs' Prayer}}" Format="Auto" Margins="1,2,2,2">
-    <page>{{C|Editor's note:The following is an excerpt from the travel diary of Kaylenn Sand-Shell, who generously donated her leather-bound volumes to the Monastery of the Illustrious Heart of Chrome. May they remain forever preserved.}}
+      <page>{{C|Editor's note: The following is an excerpt from the travel diary of Kaylenn Sand-Shell, who generously donated her leather-bound volumes to the Monastery of the Illustrious Heart of Chrome. May they remain forever preserved.}}
 
-In the outposts of the Putus Templar, the order's core values remain immutable as anywhere else:dedication to a family tree as tall and unbranching as Qud's Spindle, complete subjugation of those they consider lesser, and the total eradication of mutant sapience. Less immutable in those border colonies are the cultural trappings around that core belief, as so often is the case with occupied territories. During my travels, I noted a recurring mythology in the ruins of Oudin's abandoned outposts North of the Sunderlies. Cut off from contact with their home in a similar manner to the Temple of the Rock, these settlements established a new holy day of merriment and punishment to keep the flock pliant.
+In the outposts of the Putus Templar, the order's core values remain immutable as anywhere else: dedication to a family tree as tall and unbranching as Qud's Spindle, complete subjugation of those they consider lesser, and the total eradication of mutant sapience. Less immutable in those border colonies are the cultural trappings around that core belief, as so often is the case with occupied territories. During my travels, I noted a recurring mythology in the ruins of Oudin's abandoned outposts North of the Sunderlies. Cut off from contact with their home in a similar manner to the Temple of the Rock, these settlements established a new holy day of merriment and punishment to keep the flock pliant.
 
 The least favored of an outpost's squires, so it is said, would be subdued the evening before the Festival, forced upon the morning into a costume meant to be a mockery of the imagined mutant threat, and bade to entertain their might-determined betters. Upon the festival's conclusion, the crowd's most hated Murmurs would be 'paid' with public humiliation, beatings, and possibly torture, if we believe every account.
 
-The ritual describes a kind of uniform:trash cape, bone helm, and musical instrument. Though persistent across the scant records of the practice, I found few details and most carvings of the Murmurs were crude and varied a great deal.
+The ritual describes a kind of uniform: trash cape, bone helm, and musical instrument. Though persistent across the scant records of the practice, I found few details and most carvings of the Murmurs were crude and varied a great deal.
 
 My frustrations found themselves alleviated earlier than expected, however, when I happened at last upon the legible remains of a festival diptych. The wood of the monument itself, never built for longevity, had long since fallen apart; however, clay runoff from the roof's poor insulation baked under the salt sun, providing me with a relief of the text and some insight into the real life costumes worn at the Murmurs' Festival.
 
@@ -1508,7 +1525,7 @@ My frustrations found themselves alleviated earlier than expected, however, when
 
 [[{{w|\--------------------------------------------------------------------------/}}]]
       </page>
-  </book>
+	</book>
   <book ID="InMaqqomYd" Title="{{W|In Maqqom Yd}}" Format="Auto" Margins="1,2,2,2">
     <page>
 {{C|编者注:以下摘自凯伦·桑德-谢尔的旅行日记，她慷慨地将她的皮革装订卷册捐赠给了光辉铬心修道院。愿它们永远保存。}}
@@ -1536,8 +1553,8 @@ My frustrations found themselves alleviated earlier than expected, however, when
 这就是我离开礁石的方式，回望着深渊食者的过去，也让它回望着我。
     </page>
   </book>
-  <book ID="GolemOperatingManual" Title="{{W|OPERATING MANUAL FOR LARGE CREATURE}}" Format="Auto" Margins="1,2,2,2">
-    <page>{{c|Authored by Pax Klanq, edited for clarity by {{m|Q Girl}}}}
+	<book ID="GolemOperatingManual" Title="{{W|OPERATING MANUAL FOR LARGE CREATURE}}" Format="Auto" Margins="1,2,2,2">
+		<page>{{c|Authored by Pax Klanq, edited for clarity by {{m|Q Girl}}}}
 
 
 Circumstance render jalopy unviable, so Klanq and prickles make bioelectrical wonder to form large creature! You operate. Creature for Spindle climb, but also walks about and crush things.
@@ -1562,11 +1579,12 @@ When pilot creature, you can recoil to reshaping nook. Or recoil creature FROM n
 
 
 [[{{C|THE SPINDLE}}]]
-When ready, travel to Spindle at Omonporch, enter Spindle channel, engage Spindle lock-on, and climb! But Prickles not ready for this step yet. Come later.
+When ready, travel to Spindle at Omonporch, enter Spindle channel, engage Spindle lock-on, and climb!
     </page>
-  </book>
-  <book ID="ModuloMoonStair" Title="{{W|Modulo Moon Stair and the Tree of Life}}" Format="Auto" Margins="1,2,2,2">
-    <page>[[{{C|By Daughter Erinna}}]]
+	</book>
+	
+	<book ID="ModuloMoonStair" Title="{{W|Modulo Moon Stair and the Tree of Life}}" Format="Auto" Margins="1,2,2,2">
+		<page>[[{{C|By Daughter Erinna}}]]
 
 In rainbow reverie I wandered the wide territories of Qud,
 modulo the Moon Stair and the Tree of Life.
@@ -1603,17 +1621,19 @@ But Nothings have a cost,
 Promise externalities,
 Trees grow best beside the dead.
     </page>
-  </book>
-  <book ID="HistoryofJoppaVol1" Title="{{W|History of Joppa, Vol. 1}}" Format="Auto" Margins="1,2,2,2">
-    <page>{{w|This book recounts a tale from the history of the village Joppa.}}
+	</book>
+	
+	<book ID="HistoryofJoppaVol1" Title="{{W|History of Joppa, Vol. 1}}" Format="Auto" Margins="1,2,2,2">
+		<page>{{w|This book recounts a tale from the history of the village Joppa.}}
 
 In the mystic air of Jeweled Dusk, a circle of farmers clasped hands and sheathed a vinereaper in the moistened soil. From then on, the villagers of Joppa were known as the people of the vine.</page>
-  </book>
-  <book ID="HistoryofJoppaVol2" Title="{{W|History of Joppa, Vol. 2}}" Format="Auto" Margins="1,2,2,2">
-    <page>{{w|This book recounts a tale from the history of the village Joppa.}}
+	</book>
+	<book ID="HistoryofJoppaVol2" Title="{{W|History of Joppa, Vol. 2}}" Format="Auto" Margins="1,2,2,2">
+		<page>{{w|This book recounts a tale from the history of the village Joppa.}}
 
 Since the first festival of Ut yara Ux, the villagers of Joppa have feasted on warm apple matz.</page>
-  </book>
+	</book>
+
   <book ID="LoveinBeyLah" Title="{{W|A Tale of Love in Bey Lah}}" Format="Auto" Margins="1,2,2,2">
     <page>Once, in the final days of the hindriarchy, before they ended the practice, a pariah of no particular importance did find herself consigned to the gulag. Though she herself bore no honor, in her grasping hands she held the burning heart of the village champion, freely given -- for the two had fallen in love long before the heretic's conviction.
 
@@ -1667,7 +1687,7 @@ Additional UI Design - Polat Yarisci        ~NBSP
      Sound Design - A Shell in the Pit
  QA, Additional Design, &amp;&amp; - Thaumatic Systems         ~NBSP
  Additional Programming                          ~NBSP
- Legal Counsel - Thomas C. Allison, P.A.  
+         Legal Counsel - Thomas C. Allison, P.A.          
      Background Art - Cyril van der Haegen                                  
             Logo Art - Laura &amp;&amp; Jeff Bucholtz                           
        Community Management - Ivy Melinda &amp;&amp; the mayor team              
@@ -1790,7 +1810,7 @@ Big Simple
 Kevin Orren
 Lennart Schefe
 Beemancer
-Lady Eithn&#130;, Queen of Brokilon
+Lady Eithn, Queen of Brokilon
 Nic Gard
 NeroPrime
 InfiniteTidalWave
@@ -1799,7 +1819,7 @@ Joshua Southerland
 _tr
 James Earle
 Nick Correale
-Micha&#143;‚ Byczko
+Micha‚ Byczko
 Reuben Eadon
 Shane Allcroft
 Aidan Page
@@ -1827,7 +1847,7 @@ Ray ({{r|books}})
 awful_falafel
 ambersand
 dmajorduckie
-Lukas Wagner (K&#148;nig Muskelmagen)
+Lukas Wagner (Knig Muskelmagen)
 Marek Pohlodek
 Kamille Rose
 Retes;Nome
@@ -1844,4 +1864,5 @@ AvianAnarchy
 Gavin Conover
 </page>
   </book>
+
 </books>
